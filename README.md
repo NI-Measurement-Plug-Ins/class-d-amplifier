@@ -1,15 +1,41 @@
-# GitHub Repo Template
+# Class D Amplifier Measurements
+This plug-in makes measurements for Class D amplifiers. The tests will generate a digital audio signal and then measure the analog output of the amplifier.
+![Single tone](docs/images/single-tone.png)
+## Key Features
+ - Generates digital audio signal
+   - I2S
+   - PCM
+   - TDM
+ - Single tone measurements
+   - THD
+   - THD+N
+   - SNR
+   - SFDR
+   - Dynamic range
+   - Gain error
+   - Output power
+ - Crosstalk
+ - Stepped Frequency Sweep
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+## Hardware Setup
+![Hardware setup](docs/images/hw-setup.png)
+Instrumentation:
+- NI Dynamic Signal Acquisition device (NI 446x)
+- NI 7820/21 
+- SMU or power supply (note: the software does not use the SMU/power supply but need something to power the DUT)
 
-## Using GitHub Repo Template
+Tested hardware setup:
+- NI 4468
+- NI 7821
+- NI 4139
+- TAS6424 evaluation board
+- Load resistors
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+## Installation
+Add instruction on how to add feed to NI Package Manager or download releases
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+## Getting Started
+When you are ready to start using the software, check out [this](docs/help.md).
+
+## Contributing
+Use the instructions in [Software development](docs/sw-dev.md) for setting up a development environment and overview of the code.
