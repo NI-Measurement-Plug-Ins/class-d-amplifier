@@ -31,8 +31,16 @@ Tested hardware setup:
 - TAS6424 evaluation board
 - Load resistors
 
-## Installation
-Add instruction on how to add feed to NI Package Manager or download releases
+## Softwware Installation
+Install from NI Package Manager:
+- NI RIO
+- NI DAQmx
+- NI DCPower (if using NI SMU to power device)
+- InstrumentStudio
+
+Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community 
+
+[comment]: # (add link to documnetation at community level)
 
 ## Getting Started
 When you are ready to start using the software, check out [this](docs/help.md).
