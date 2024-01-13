@@ -31,7 +31,7 @@ Tested hardware setup:
 - TAS6424 evaluation board
 - Load resistors
 
-## Softwware Installation
+## Software Installation
 Install from NI Package Manager:
 - NI RIO
 - NI DAQmx
@@ -46,4 +46,4 @@ Download the latest NI package from the releases section of this repo or add the
 When you are ready to start using the software, check out [this](docs/help.md).
 
 ## Contributing
-Use the instructions in [Software development](docs/sw-dev.md) for setting up a development environment and overview of the code.
+Use the instructions in [software development](docs/sw-dev.md) for setting up a development environment and overview of the code.
