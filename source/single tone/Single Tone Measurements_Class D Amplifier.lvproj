@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Single Tone Measurements_Class D Amplifier.lvlib" Type="Library" URL="../Audio-Single Tone Meas with Digital Output/Single Tone Measurements_Class D Amplifier.lvlib"/>
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
+		<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
+		<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -470,22 +472,12 @@
 			<Item Name="Generate Sine Wave for Digital Audio.vi" Type="VI" URL="../../shared/Generate Sine Wave for Digital Audio.vi"/>
 			<Item Name="Calculate Ouput Level for Digital Audio.vi" Type="VI" URL="../../shared/Calculate Ouput Level for Digital Audio.vi"/>
 			<Item Name="Calculate Output Power.vi" Type="VI" URL="../../shared/Calculate Output Power.vi"/>
-			<Item Name="single tone audio measurements.ctl" Type="VI" URL="../../shared/controls/single tone audio measurements.ctl"/>
-			<Item Name="single tone audio measurement settings.ctl" Type="VI" URL="../../shared/controls/single tone audio measurement settings.ctl"/>
 			<Item Name="Volts to dB.vi" Type="VI" URL="../../shared/Volts to dB.vi"/>
-			<Item Name="audio filter settings.ctl" Type="VI" URL="../../shared/controls/audio filter settings.ctl"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="data justification.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/data justification.ctl"/>
-			<Item Name="endianness.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/endianness.ctl"/>
-			<Item Name="digital edge.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/digital edge.ctl"/>
-			<Item Name="weighting filter.ctl" Type="VI" URL="../../shared/controls/weighting filter.ctl"/>
-			<Item Name="lowpass filter.ctl" Type="VI" URL="../../shared/controls/lowpass filter.ctl"/>
-			<Item Name="highpass filter.ctl" Type="VI" URL="../../shared/controls/highpass filter.ctl"/>
-			<Item Name="logic level.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/logic level.ctl"/>
-			<Item Name="output mode.ctl" Type="VI" URL="../../shared/controls/output mode.ctl"/>
 			<Item Name="Calculate Waveform Subset for Measurement.vi" Type="VI" URL="../../shared/Calculate Waveform Subset for Measurement.vi"/>
 			<Item Name="Single Tone Audio Measurements.vi" Type="VI" URL="../../shared/Single Tone Audio Measurements.vi"/>
 			<Item Name="Audio Filtering (Time Domain).vi" Type="VI" URL="../../shared/Audio Filtering (Time Domain).vi"/>
+			<Item Name="Convert Units - Ratios.vi" Type="VI" URL="../../shared/Convert Units - Ratios.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Tone Measurements_Class D Amplifier" Type="EXE">
