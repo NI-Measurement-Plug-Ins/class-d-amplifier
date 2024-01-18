@@ -6,6 +6,7 @@ Software dependencies:
 - Sound and Vibration Toolkit 2021
 - Digital Audio Acquisition and Generation Toolkit 2023 Q3
 - MeasurementLink 2023 Q4
+- [MeasurementLink Support for LabVIEW v2.0.0.1](https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
 - NI DAQmx
 - NI RIO
 
