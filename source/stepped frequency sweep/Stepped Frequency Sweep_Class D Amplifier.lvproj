@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Stepped Frequency Sweep_Class D Amplifier_UI.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier UI/Stepped Frequency Sweep_Class D Amplifier_UI.lvlib"/>
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier/Stepped Frequency Sweep_Class D Amplifier.lvlib"/>
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -533,7 +534,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C44F4A25-F5A9-49F2-8252-5E3F58670682}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Stepped Sweep_Class D Amplifier.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/NI_AB_PROJECTNAME/Stepped Sweep_Class D Amplifier.exe</Property>
@@ -585,6 +586,47 @@
 				<Property Name="TgtF_productName" Type="Str">Stepped Sweep_Class D Amplifier</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B6E5DB40-30F0-4ECE-878A-2974DF249154}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Stepped Sweep_Class D Amplifier.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Stepped Freq Sweep UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1FFF1067-42E3-4BDB-ACB5-574C611C886C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Stepped Freq Sweep UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Stepped Sweep_Class D Amplifier/BuildUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{44246515-ED21-47B7-9DB4-59461139AFAB}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Stepped Frequency Sweep UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Stepped Sweep_Class D Amplifier/BuildUI/Stepped Frequency Sweep UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Stepped Sweep_Class D Amplifier/BuildUI</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D43F775E-820A-4FD9-89A3-1BB0F267CE30}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier_UI.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Stepped Freq Sweep UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Stepped Freq Sweep UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">Stepped Freq Sweep UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A9A3FFF3-28A4-4EE1-BD28-658CF27951BF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Stepped Frequency Sweep UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
