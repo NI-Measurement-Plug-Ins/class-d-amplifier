@@ -6,6 +6,7 @@
 	<Item Name="audio filter settings.ctl" Type="VI" URL="../audio filter settings.ctl"/>
 	<Item Name="audio highpass filter type.ctl" Type="VI" URL="../audio highpass filter type.ctl"/>
 	<Item Name="audio lowpass filter type.ctl" Type="VI" URL="../audio lowpass filter type.ctl"/>
+	<Item Name="digital output level units.ctl" Type="VI" URL="../digital output level units.ctl"/>
 	<Item Name="highpass filter.ctl" Type="VI" URL="../highpass filter.ctl"/>
 	<Item Name="lowpass filter.ctl" Type="VI" URL="../lowpass filter.ctl"/>
 	<Item Name="output mode.ctl" Type="VI" URL="../output mode.ctl"/>
