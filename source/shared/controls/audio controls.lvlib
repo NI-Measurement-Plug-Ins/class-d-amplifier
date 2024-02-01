@@ -11,6 +11,7 @@
 	<Item Name="lowpass filter.ctl" Type="VI" URL="../lowpass filter.ctl"/>
 	<Item Name="output mode.ctl" Type="VI" URL="../output mode.ctl"/>
 	<Item Name="single tone audio measurement settings.ctl" Type="VI" URL="../single tone audio measurement settings.ctl"/>
+	<Item Name="single tone audio measurements (N chan).ctl" Type="VI" URL="../single tone audio measurements (N chan).ctl"/>
 	<Item Name="single tone audio measurements.ctl" Type="VI" URL="../single tone audio measurements.ctl"/>
 	<Item Name="sweep profile.ctl" Type="VI" URL="../sweep profile.ctl"/>
 	<Item Name="units - level.ctl" Type="VI" URL="../units - level.ctl"/>
