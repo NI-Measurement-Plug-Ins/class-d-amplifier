@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5C3BC1ADC24B608CE9718086832BD03484EF61FFADD47943B3925D225E49FE652278C00F2BEDB726E53B10E494042409B3CCE21B818192F26E5F452467320372" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F09134A5EC07CB928AC1F88A86D285A524350FFE990D4279338390A5B60AEF83CD11A33A6668D26DE0C4B8A3F7A5C986F48DBC61D9A6CC5F63F9F77629115E78" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.10.0.49931" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="23.8.0.49931" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="23.8.0.49931" />
@@ -14,6 +14,7 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="8369d64bec994998a5ebf2013cb8f9a4" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Power.sfp" StoragePath="Power.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="f04a043467a94a2d98a0fcd3453ab7f7" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Single Tone.sfp" StoragePath="Single Tone.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="3c0750bd70204b8dbe7fca9bf846b301" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Frequency Sweep.sfp" StoragePath="Frequency Sweep.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="7b802151ff4a4d808b7db63e36cc7b66" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Crosstalk.sfp" StoragePath="Crosstalk.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
