@@ -33,10 +33,11 @@ Tested hardware setup:
 
 ## Software Installation
 Install from NI Package Manager:
-- NI RIO
-- NI DAQmx
+- NI RIO (2024 Q1 or greater)
+- NI DAQmx (2024 Q1 or greater)
 - NI DCPower (if using NI SMU to power device)
-- InstrumentStudio
+- InstrumentStudio (2024 Q1 or greater)
+- MeasurementLink (2024 Q1 or greater)
 
 Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community 
 
