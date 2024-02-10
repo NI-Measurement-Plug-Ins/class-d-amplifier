@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Check if Click in Graph Legend.vi" Type="VI" URL="../Check if Click in Graph Legend.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Position Graph Legend Button.vi" Type="VI" URL="../Position Graph Legend Button.vi"/>
+	<Item Name="UI State.ctl" Type="VI" URL="../UI State.ctl"/>
 </Library>
