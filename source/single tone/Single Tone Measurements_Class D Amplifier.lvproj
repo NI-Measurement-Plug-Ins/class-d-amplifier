@@ -547,13 +547,12 @@
 			<Item Name="Calculate Waveform Subset for Measurement.vi" Type="VI" URL="../../shared/Calculate Waveform Subset for Measurement.vi"/>
 			<Item Name="Convert Digital Output Level Units.vi" Type="VI" URL="../../shared/Convert Digital Output Level Units.vi"/>
 			<Item Name="Single Tone Audio Measurements (N Ch).vi" Type="VI" URL="../../shared/Single Tone Audio Measurements (N Ch).vi"/>
-			<Item Name="Autosize Columns (Table).vi" Type="VI" URL="../../shared/Autosize Columns (Table).vi"/>
 			<Item Name="Single Tone Results to Cluster of Arrays.vi" Type="VI" URL="../../shared/Single Tone Results to Cluster of Arrays.vi"/>
 			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../shared/Triangular Probability Density Noise.vi"/>
 			<Item Name="Add Dither Noise.vi" Type="VI" URL="../../shared/Add Dither Noise.vi"/>
 			<Item Name="Array to Spectrum (N Ch).vi" Type="VI" URL="../../shared/Array to Spectrum (N Ch).vi"/>
 			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
-			<Item Name="view.ctl" Type="VI" URL="../../shared/ui/view.ctl"/>
+			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Tone_Class D Amplifier" Type="EXE">
@@ -636,7 +635,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7E33245-0DAE-445D-BB77-FD7DF2524D5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Tone_Class D Amplifier_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Single Tone_Class D Amplifier/BuiltUI/Single Tone_Class D Amplifier_UI.lvlibp</Property>

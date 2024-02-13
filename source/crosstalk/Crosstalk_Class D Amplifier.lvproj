@@ -487,6 +487,7 @@
 				<Item Name="svl_Check Data Valid [SLM].vi" Type="VI" URL="/&lt;vilib&gt;/addons/Sound and Vibration/svt_Level/subVIs/svl_Check Data Valid [SLM].vi"/>
 				<Item Name="DAQmx Unflatten Channel String.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Unflatten Channel String.vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -518,9 +519,11 @@
 			<Item Name="Convert Digital Output Level Units.vi" Type="VI" URL="../../shared/Convert Digital Output Level Units.vi"/>
 			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../shared/Triangular Probability Density Noise.vi"/>
 			<Item Name="Add Dither Noise.vi" Type="VI" URL="../../shared/Add Dither Noise.vi"/>
-			<Item Name="Autosize Columns (Table).vi" Type="VI" URL="../../shared/Autosize Columns (Table).vi"/>
 			<Item Name="Crosstalk (N Chan).vi" Type="VI" URL="../Crosstalk_Class D Amplifier/subVIs/Crosstalk (N Chan).vi"/>
 			<Item Name="Format Channel Names - Crosstalk.vi" Type="VI" URL="../Crosstalk_Class D Amplifier/subVIs/Format Channel Names - Crosstalk.vi"/>
+			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
+			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
+			<Item Name="Array to Spectrum (N Ch).vi" Type="VI" URL="../../shared/Array to Spectrum (N Ch).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Crosstalk_Class D Amplifier" Type="EXE">
@@ -603,7 +606,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F559CCD-0F90-4680-AAE2-A46654F7BCBE}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Crosstalk UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuildUI/Crosstalk UI.lvlibp</Property>
