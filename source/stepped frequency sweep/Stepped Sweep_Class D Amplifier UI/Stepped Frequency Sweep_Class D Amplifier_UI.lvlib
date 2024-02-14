@@ -6,5 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Get Y Axis Name.vi" Type="VI" URL="../Get Y Axis Name.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Set Visible Plot.vi" Type="VI" URL="../Set Visible Plot.vi"/>
+	<Item Name="UI State.ctl" Type="VI" URL="../UI State.ctl"/>
 	<Item Name="Y axis data selection.ctl" Type="VI" URL="../Y axis data selection.ctl"/>
 </Library>
