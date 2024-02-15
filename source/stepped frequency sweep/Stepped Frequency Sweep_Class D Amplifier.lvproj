@@ -14,6 +14,7 @@
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier_UI.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier UI/Stepped Frequency Sweep_Class D Amplifier_UI.lvlib"/>
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier/Stepped Frequency Sweep_Class D Amplifier.lvlib"/>
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
+		<Item Name="regulation target.ctl" Type="VI" URL="../../shared/controls/regulation target.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
