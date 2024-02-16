@@ -10,6 +10,9 @@
 		</Item>
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
+	<Item Name="Check for Target Crossing.vi" Type="VI" URL="../subVIs/Check for Target Crossing.vi"/>
+	<Item Name="Determine Next Generation Level.vi" Type="VI" URL="../subVIs/Determine Next Generation Level.vi"/>
+	<Item Name="Find Regulation Target Crossing.vi" Type="VI" URL="../Find Regulation Target Crossing.vi"/>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
@@ -17,4 +20,5 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
+	<Item Name="Single Tone Measurement (IO).vi" Type="VI" URL="../Single Tone Measurement (IO).vi"/>
 </Library>
