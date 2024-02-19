@@ -14,7 +14,6 @@
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier_UI.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier UI/Stepped Frequency Sweep_Class D Amplifier_UI.lvlib"/>
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier/Stepped Frequency Sweep_Class D Amplifier.lvlib"/>
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
-		<Item Name="regulation target.ctl" Type="VI" URL="../../shared/controls/regulation target.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -526,8 +525,15 @@
 			<Item Name="Add Dither Noise.vi" Type="VI" URL="../../shared/Add Dither Noise.vi"/>
 			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
 			<Item Name="regulation target value units.ctl" Type="VI" URL="../../shared/controls/regulation target value units.ctl"/>
-			<Item Name="Check for End of Output Sweep.vi" Type="VI" URL="../Stepped Sweep_Class D Amplifier/subVIs/Check for End of Output Sweep.vi"/>
-			<Item Name="Interpolate and Measure.vi" Type="VI" URL="../Stepped Sweep_Class D Amplifier/subVIs/Interpolate and Measure.vi"/>
+			<Item Name="Check for End of Output Sweep.vi" Type="VI" URL="../../shared/Check for End of Output Sweep.vi"/>
+			<Item Name="Regulation - Interpolate and Measure.vi" Type="VI" URL="../../shared/Regulation - Interpolate and Measure.vi"/>
+			<Item Name="Check for Regulation Target Crossing.vi" Type="VI" URL="../../shared/Check for Regulation Target Crossing.vi"/>
+			<Item Name="Determine Next Regulation Generation Level.vi" Type="VI" URL="../../shared/Determine Next Regulation Generation Level.vi"/>
+			<Item Name="Find Regulation Target Crossing.vi" Type="VI" URL="../../shared/Find Regulation Target Crossing.vi"/>
+			<Item Name="Single Tone Measurement (IO).vi" Type="VI" URL="../../shared/Single Tone Measurement (IO).vi"/>
+			<Item Name="regulation target.ctl" Type="VI" URL="../../shared/controls/regulation target.ctl"/>
+			<Item Name="regulation settings.ctl" Type="VI" URL="../../shared/controls/regulation settings.ctl"/>
+			<Item Name="single tone measurement settings (HW).ctl" Type="VI" URL="../../shared/controls/single tone measurement settings (HW).ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Stepped Sweep_Class D Amplifier" Type="EXE">
