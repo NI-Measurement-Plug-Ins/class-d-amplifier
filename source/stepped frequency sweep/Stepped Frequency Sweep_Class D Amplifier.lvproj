@@ -534,6 +534,7 @@
 			<Item Name="regulation target.ctl" Type="VI" URL="../../shared/controls/regulation target.ctl"/>
 			<Item Name="regulation settings.ctl" Type="VI" URL="../../shared/controls/regulation settings.ctl"/>
 			<Item Name="single tone measurement settings (HW).ctl" Type="VI" URL="../../shared/controls/single tone measurement settings (HW).ctl"/>
+			<Item Name="PCM tasks.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/PCM tasks.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Stepped Sweep_Class D Amplifier" Type="EXE">
