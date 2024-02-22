@@ -591,6 +591,7 @@
 			<Item Name="PCM tasks.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/PCM tasks.ctl"/>
 			<Item Name="Single Tone Audio Measurements (N Ch).vi" Type="VI" URL="../../shared/Single Tone Audio Measurements (N Ch).vi"/>
 			<Item Name="Single Tone Results to Cluster of Arrays.vi" Type="VI" URL="../../shared/Single Tone Results to Cluster of Arrays.vi"/>
+			<Item Name="Calculate Efficiency.vi" Type="VI" URL="../../shared/Calculate Efficiency.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Efficiency_Class D Amplifier" Type="EXE">
