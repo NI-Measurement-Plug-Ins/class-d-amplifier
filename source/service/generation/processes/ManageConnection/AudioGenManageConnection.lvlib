@@ -10,10 +10,15 @@
 	<Item Name="controls" Type="Folder"/>
 	<Item Name="main" Type="Folder">
 		<Item Name="Create Listener.vi" Type="VI" URL="../main/Create Listener.vi"/>
+		<Item Name="Get Connection Status.vi" Type="VI" URL="../main/Get Connection Status.vi"/>
+		<Item Name="Get Connection.vi" Type="VI" URL="../main/Get Connection.vi"/>
 		<Item Name="Process Name.vi" Type="VI" URL="../main/Process Name.vi"/>
 		<Item Name="Process.vi" Type="VI" URL="../main/Process.vi"/>
+		<Item Name="Set Connection Status.vi" Type="VI" URL="../main/Set Connection Status.vi"/>
+		<Item Name="Set Connection.vi" Type="VI" URL="../main/Set Connection.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Command List.vi" Type="VI" URL="../subVIs/Command List.vi"/>
 		<Item Name="Get Point Value Map Reference.vi" Type="VI" URL="../subVIs/Get Point Value Map Reference.vi"/>
 		<Item Name="Receive Qbus Messages.vi" Type="VI" URL="../subVIs/Receive Qbus Messages.vi"/>
 		<Item Name="Registered Messages.vi" Type="VI" URL="../subVIs/Registered Messages.vi"/>

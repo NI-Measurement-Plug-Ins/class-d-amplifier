@@ -12,10 +12,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="API" Type="Folder" URL="../API">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="AudioGenManageConnection.lvlib" Type="Library" URL="../processes/ManageConnection/AudioGenManageConnection.lvlib"/>
 		<Item Name="AudioGenTCPReader.lvlib" Type="Library" URL="../processes/TCP Read/AudioGenTCPReader.lvlib"/>
 		<Item Name="EventLoggerProcess.lvlib" Type="Library" URL="../../shared/logger process/EventLoggerProcess.lvlib"/>
+		<Item Name="DigialAudioGeneration.lvlib" Type="Library" URL="../processes/Digital Audio Generation/DigialAudioGeneration.lvlib"/>
 		<Item Name="Send Msg - Test.vi" Type="VI" URL="../test/Send Msg - Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
