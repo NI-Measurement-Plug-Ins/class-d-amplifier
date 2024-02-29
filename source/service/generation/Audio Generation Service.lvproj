@@ -26,7 +26,7 @@
 		<Item Name="AudioGenManageConnectionProcess.lvlib" Type="Library" URL="../processes/ManageConnection/AudioGenManageConnectionProcess.lvlib"/>
 		<Item Name="AudioGenTCPReaderProcess.lvlib" Type="Library" URL="../processes/TCP Read/AudioGenTCPReaderProcess.lvlib"/>
 		<Item Name="EventLoggerProcess.lvlib" Type="Library" URL="../../shared/logger process/EventLoggerProcess.lvlib"/>
-		<Item Name="DigialAudioGenerationProcess.lvlib" Type="Library" URL="../processes/Digital Audio Generation/DigialAudioGenerationProcess.lvlib"/>
+		<Item Name="DigitalAudioGenerationProcess.lvlib" Type="Library" URL="../processes/Digital Audio Generation/DigitalAudioGenerationProcess.lvlib"/>
 		<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../controls/AudioGenTypeDefs.lvlib"/>
 		<Item Name="Send Msg - Test.vi" Type="VI" URL="../test/Send Msg - Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -108,6 +108,20 @@
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="PDM Acquisition Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/PDM Acquisition Toolkit/host/API/PDM Acquisition Toolkit.lvlib"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -122,6 +136,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Generate Sine Wave for Digital Audio.vi" Type="VI" URL="../../../shared/Generate Sine Wave for Digital Audio.vi"/>
+			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../../shared/Triangular Probability Density Noise.vi"/>
+			<Item Name="Add Dither Noise.vi" Type="VI" URL="../../../shared/Add Dither Noise.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
