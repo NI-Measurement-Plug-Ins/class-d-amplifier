@@ -28,7 +28,7 @@
 		<Item Name="EventLoggerProcess.lvlib" Type="Library" URL="../../shared/logger process/EventLoggerProcess.lvlib"/>
 		<Item Name="DigitalAudioGenerationProcess.lvlib" Type="Library" URL="../processes/Digital Audio Generation/DigitalAudioGenerationProcess.lvlib"/>
 		<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../controls/AudioGenTypeDefs.lvlib"/>
-		<Item Name="Send Msg - Test.vi" Type="VI" URL="../test/Send Msg - Test.vi"/>
+		<Item Name="AudioGenUtility.lvlib" Type="Library" URL="../subVIs/utility/AudioGenUtility.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>

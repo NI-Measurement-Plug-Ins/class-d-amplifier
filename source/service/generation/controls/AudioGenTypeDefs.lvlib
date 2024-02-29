@@ -10,4 +10,5 @@
 	<Item Name="digital protocol settings.ctl" Type="VI" URL="../digital protocol settings.ctl"/>
 	<Item Name="generation status.ctl" Type="VI" URL="../generation status.ctl"/>
 	<Item Name="generation type.ctl" Type="VI" URL="../generation type.ctl"/>
+	<Item Name="service settings.ctl" Type="VI" URL="../service settings.ctl"/>
 </Library>
