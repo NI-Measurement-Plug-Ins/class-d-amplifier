@@ -30,4 +30,6 @@
 		<Item Name="Start Digital Audio Task.vi" Type="VI" URL="../subVIs/Start Digital Audio Task.vi"/>
 		<Item Name="Stop Digital Audio Task.vi" Type="VI" URL="../subVIs/Stop Digital Audio Task.vi"/>
 	</Item>
+	<Item Name="Send Update Generation On Fly Msg.vi" Type="VI" URL="../main/Send Update Generation On Fly Msg.vi"/>
+	<Item Name="Update Generation On The Fly Digital Audio Task.vi" Type="VI" URL="../subVIs/Update Generation On The Fly Digital Audio Task.vi"/>
 </Library>
