@@ -1442,72 +1442,72 @@
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i215" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.aliases</DestinationRelativePath>
-                    <Name>DeleteServices_Audio.aliases</Name>
-                    <SourceItem z:Ref="i41" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i216" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.exe</DestinationRelativePath>
-                    <Name>DeleteServices_Audio.exe</Name>
-                    <SourceItem z:Ref="i42" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i217" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.ini</DestinationRelativePath>
-                    <Name>DeleteServices_Audio.ini</Name>
-                    <SourceItem z:Ref="i43" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i218" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.aliases</DestinationRelativePath>
-                    <Name>RegisterServices_Audio.aliases</Name>
-                    <SourceItem z:Ref="i44" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i219" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.exe</DestinationRelativePath>
-                    <Name>RegisterServices_Audio.exe</Name>
-                    <SourceItem z:Ref="i45" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i220" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.ini</DestinationRelativePath>
-                    <Name>RegisterServices_Audio.ini</Name>
-                    <SourceItem z:Ref="i46" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i221" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\srvany.exe</DestinationRelativePath>
-                    <Name>srvany.exe</Name>
-                    <SourceItem z:Ref="i47" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\AudioGenerationService.aliases</DestinationRelativePath>
                     <Name>AudioGenerationService.aliases</Name>
                     <SourceItem z:Ref="i38" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i223" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i216" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\AudioGenerationService.exe</DestinationRelativePath>
                     <Name>AudioGenerationService.exe</Name>
                     <SourceItem z:Ref="i39" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i224" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i217" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\AudioGenerationService.ini</DestinationRelativePath>
                     <Name>AudioGenerationService.ini</Name>
                     <SourceItem z:Ref="i40" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i218" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.aliases</DestinationRelativePath>
+                    <Name>DeleteServices_Audio.aliases</Name>
+                    <SourceItem z:Ref="i41" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i219" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.exe</DestinationRelativePath>
+                    <Name>DeleteServices_Audio.exe</Name>
+                    <SourceItem z:Ref="i42" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i220" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.ini</DestinationRelativePath>
+                    <Name>DeleteServices_Audio.ini</Name>
+                    <SourceItem z:Ref="i43" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i221" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.aliases</DestinationRelativePath>
+                    <Name>RegisterServices_Audio.aliases</Name>
+                    <SourceItem z:Ref="i44" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.exe</DestinationRelativePath>
+                    <Name>RegisterServices_Audio.exe</Name>
+                    <SourceItem z:Ref="i45" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i223" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.ini</DestinationRelativePath>
+                    <Name>RegisterServices_Audio.ini</Name>
+                    <SourceItem z:Ref="i46" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i224" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\srvany.exe</DestinationRelativePath>
+                    <Name>srvany.exe</Name>
+                    <SourceItem z:Ref="i47" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
@@ -1520,14 +1520,14 @@
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i225">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-classdamplifier_1.0.0.12_windows_x64.nipkg</FileName>
-                <Version>1.0.0.12</Version>
+                <FileName>community-classdamplifier_1.0.0.18_windows_x64.nipkg</FileName>
+                <Version>1.0.0.18</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes>
                 <CustomExecute z:Id="i226">
                     <Arguments i:nil="true" />
-                    <ExeName>AudioValidation\Utility\RegisterService_Audio.exe</ExeName>
+                    <ExeName>AudioValidation\Utility\RegisterServices_Audio.exe</ExeName>
                     <HideConsoleWindow>true</HideConsoleWindow>
                     <IgnoreErrors>false</IgnoreErrors>
                     <RootLogicalName>[Program Files (64-bit)]</RootLogicalName>
@@ -1536,16 +1536,6 @@
                     <Wait>false</Wait>
                 </CustomExecute>
                 <CustomExecute z:Id="i227">
-                    <Arguments i:nil="true" />
-                    <ExeName />
-                    <HideConsoleWindow>true</HideConsoleWindow>
-                    <IgnoreErrors>false</IgnoreErrors>
-                    <RootLogicalName>[Program Files (64-bit)]</RootLogicalName>
-                    <Schedule>Postall</Schedule>
-                    <Step>Uninstall</Step>
-                    <Wait>false</Wait>
-                </CustomExecute>
-                <CustomExecute z:Id="i228">
                     <Arguments i:nil="true" />
                     <ExeName>AudioValidation\Utility\DeleteServices_Audio.exe</ExeName>
                     <HideConsoleWindow>true</HideConsoleWindow>
@@ -1558,18 +1548,27 @@
             </CustomExecutes>
             <Description>Measurements for Class D amplifiers using MeasurementLink</Description>
             <DisplayName>Class D Amplifier MeasurementLink Plug-In</DisplayName>
-            <FileName>community-classdamplifier_1.0.0.13_windows_x64.nipkg</FileName>
+            <FileName>community-classdamplifier_1.0.0.19_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/class-d-amplifier</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <PackageName>community-classdamplifier</PackageName>
-            <PackageRelationships />
+            <PackageRelationships>
+                <PackageRelationship z:Id="i228">
+                    <Constraint>LaterOrEqual</Constraint>
+                    <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
+                    <PackageName>ni-labview-2021-runtime-engine</PackageName>
+                    <Relation>Depends</Relation>
+                    <Version>21.1.2.49154-0+f2</Version>
+                    <VersionType>AutoUpdate</VersionType>
+                </PackageRelationship>
+            </PackageRelationships>
             <ProductName>MyProduct</ProductName>
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-classdamplifier</Synopsis>
-            <Version>1.0.0.13</Version>
+            <Version>1.0.0.19</Version>
         </Distribution>
     </Distributions>
     <Feeds />
