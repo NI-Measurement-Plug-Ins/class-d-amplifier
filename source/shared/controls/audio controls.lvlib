@@ -18,5 +18,4 @@
 	<Item Name="units - ratio.ctl" Type="VI" URL="../units - ratio.ctl"/>
 	<Item Name="units - snr.ctl" Type="VI" URL="../units - snr.ctl"/>
 	<Item Name="units settings.ctl" Type="VI" URL="../units settings.ctl"/>
-	<Item Name="weighting filter.ctl" Type="VI" URL="../weighting filter.ctl"/>
 </Library>

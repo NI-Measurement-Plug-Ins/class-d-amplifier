@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A77714DC9ACC8981E08DCA3C1D2CE0435A24A6D9E4C0A1C959E69EB324C12A9C165CBC3C9E19F48F926C9C47D1795DCD4B0C69B7300B09C5E262FFB0B291D665" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7D4449EA5A7C816EEDC9E569D4B188B5CA6F710483215E7ACF23DBB261B3AEF23FCB1E553F26172B13CEC31E375AB0AFAD27DB835D679A9281F7C512B2ED40F5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
@@ -17,6 +17,7 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="7b802151ff4a4d808b7db63e36cc7b66" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Crosstalk.sfp" StoragePath="Crosstalk.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="be4fdb438e246d09b41d07599a9aaa0" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Efficiency.sfp" StoragePath="Efficiency.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="4dc9731ff72f4da8a24b8e5988b9ceb9" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Efficiency Sweep.sfp" StoragePath="Efficiency Sweep.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="52a97dcb90cf42f28d65a02f47845524" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Generation Panel.sfp" StoragePath="Generation Panel.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
