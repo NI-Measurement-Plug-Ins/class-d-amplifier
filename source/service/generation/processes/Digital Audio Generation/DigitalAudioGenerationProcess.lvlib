@@ -19,6 +19,7 @@
 		<Item Name="Send DetectHW Msg.vi" Type="VI" URL="../main/Send DetectHW Msg.vi"/>
 		<Item Name="Send Start Msg.vi" Type="VI" URL="../main/Send Start Msg.vi"/>
 		<Item Name="Send Stop Msg.vi" Type="VI" URL="../main/Send Stop Msg.vi"/>
+		<Item Name="Send Update Generation On Fly Msg.vi" Type="VI" URL="../main/Send Update Generation On Fly Msg.vi"/>
 		<Item Name="Set Generation Status.vi" Type="VI" URL="../main/Set Generation Status.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
@@ -29,7 +30,6 @@
 		<Item Name="Registered Messages.vi" Type="VI" URL="../subVIs/Registered Messages.vi"/>
 		<Item Name="Start Digital Audio Task.vi" Type="VI" URL="../subVIs/Start Digital Audio Task.vi"/>
 		<Item Name="Stop Digital Audio Task.vi" Type="VI" URL="../subVIs/Stop Digital Audio Task.vi"/>
+		<Item Name="Update Generation On The Fly Digital Audio Task.vi" Type="VI" URL="../subVIs/Update Generation On The Fly Digital Audio Task.vi"/>
 	</Item>
-	<Item Name="Send Update Generation On Fly Msg.vi" Type="VI" URL="../main/Send Update Generation On Fly Msg.vi"/>
-	<Item Name="Update Generation On The Fly Digital Audio Task.vi" Type="VI" URL="../subVIs/Update Generation On The Fly Digital Audio Task.vi"/>
 </Library>
