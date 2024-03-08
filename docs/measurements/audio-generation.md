@@ -6,7 +6,7 @@ This service will generate a continuous audio signal.
 
 ## InstrumentStudio Panel
 ### Usage
-In the Output Configuration section, enter the details for your digital communication settings. In the Signal Generation section, enter the details of the sine wave to generate. Use the **Action** control to start, stop, or update the signal. Press the **RUN** button to for your selections to be active. 
+In the Output Configuration section, enter the details for your digital communication settings. In the Signal Generation section, enter the details of the sine wave to generate. Use the **Action** control to start, stop, or update the signal. Press the **RUN** button to for your selections to be active.  
 ![InstrumentStudio panel](meas-images/audio-signal-generation.png)
 #### Tips: 
 - If the generation is already running and you want to make updates, you can keep the **Action** as *Start* and the generation will update (not stop and restart).

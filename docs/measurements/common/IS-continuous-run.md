@@ -1,7 +1,7 @@
 # Continuous Run in InstrumentStudio
 
 ## How to Enable
-In InstrumentStudio, go to File>>Preferences. Under the **Preview features** section, enable the option called *Allow running measurements continuously*.
+In InstrumentStudio, go to File>>Preferences. Under the **Preview features** section, enable the option called *Allow running measurements continuously*.  
 ![Enable RunContinuous](../meas-images/enable-continuous-run.png)
 
 ## How to Use
