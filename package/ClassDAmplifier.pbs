@@ -279,113 +279,167 @@
         </SourceItem>
         <SourceItem z:Id="i48">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\BuiltUI\Single Tone_Class D Amplifier_UI.lvlibp</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\BuiltUI\Single Tone No Gen_Class D Amplifier_UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i49">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i50">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i51">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i52">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i53">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.aliases</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i54">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.exe</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i55">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.ini</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i56">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.serviceconfig</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i57">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\BuildUI\Stepped Frequency Sweep UI.lvlibp</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\BuiltUI\Single Tone_Class D Amplifier_UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i58">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i59">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i60">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i61">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i62">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.aliases</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i63">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.exe</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i64">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.ini</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i65">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.serviceconfig</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i66">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\BuildUI\Stepped Frequency Sweep UI.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i67">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i68">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i69">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i70">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i71">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i72">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i73">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i74">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.serviceconfig</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i75">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier\BuildUI</RelativePath>
             <DependentItems>
@@ -393,7 +447,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i67">
+        <SourceItem z:Id="i76">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -401,7 +455,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i68">
+        <SourceItem z:Id="i77">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -409,7 +463,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i69">
+        <SourceItem z:Id="i78">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -417,7 +471,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i70">
+        <SourceItem z:Id="i79">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -425,7 +479,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i71">
+        <SourceItem z:Id="i80">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\BuildUI</RelativePath>
             <DependentItems>
@@ -433,7 +487,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i72">
+        <SourceItem z:Id="i81">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -441,7 +495,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i73">
+        <SourceItem z:Id="i82">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -449,7 +503,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i74">
+        <SourceItem z:Id="i83">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -457,7 +511,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i75">
+        <SourceItem z:Id="i84">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -465,7 +519,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i76">
+        <SourceItem z:Id="i85">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency_Class D Amplifier\BuiltUI</RelativePath>
             <DependentItems>
@@ -473,7 +527,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i77">
+        <SourceItem z:Id="i86">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency_Class D Amplifier\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -481,7 +535,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i78">
+        <SourceItem z:Id="i87">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency_Class D Amplifier\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -489,7 +543,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i79">
+        <SourceItem z:Id="i88">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency_Class D Amplifier\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -497,7 +551,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i80">
+        <SourceItem z:Id="i89">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency_Class D Amplifier\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -505,7 +559,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i81">
+        <SourceItem z:Id="i90">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Generation_Class D Amplifier\BuiltUI</RelativePath>
             <DependentItems>
@@ -513,7 +567,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i82">
+        <SourceItem z:Id="i91">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Generation_Class D Amplifier\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -521,7 +575,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i83">
+        <SourceItem z:Id="i92">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Generation_Class D Amplifier\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -529,7 +583,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i84">
+        <SourceItem z:Id="i93">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Generation_Class D Amplifier\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -537,7 +591,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i85">
+        <SourceItem z:Id="i94">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Generation_Class D Amplifier\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -545,87 +599,127 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i86">
+        <SourceItem z:Id="i95">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\BuiltUI</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\BuiltUI</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i48" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i87">
+        <SourceItem z:Id="i96">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Linux</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\Linux</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i49" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i88">
+        <SourceItem z:Id="i97">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i50" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i89">
+        <SourceItem z:Id="i98">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win32</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i51" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i90">
+        <SourceItem z:Id="i99">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win64</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i52" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i91">
+        <SourceItem z:Id="i100">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\BuildUI</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\BuiltUI</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i57" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i92">
+        <SourceItem z:Id="i101">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Linux</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i58" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i93">
+        <SourceItem z:Id="i102">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i59" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i94">
+        <SourceItem z:Id="i103">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i60" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i95">
+        <SourceItem z:Id="i104">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i61" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i96">
+        <SourceItem z:Id="i105">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\BuildUI</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i66" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i106">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i67" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i107">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i68" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i108">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i69" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i109">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i70" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i110">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\services\Audio Generation Service</RelativePath>
             <DependentItems>
@@ -635,7 +729,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i97">
+        <SourceItem z:Id="i111">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\services\Utility</RelativePath>
             <DependentItems>
@@ -649,82 +743,93 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i98">
+        <SourceItem z:Id="i112">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\services</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i96" />
-                <SourceItem z:Ref="i97" />
+                <SourceItem z:Ref="i110" />
+                <SourceItem z:Ref="i111" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i99">
+        <SourceItem z:Id="i113">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i67" />
-                <SourceItem z:Ref="i68" />
-                <SourceItem z:Ref="i69" />
-                <SourceItem z:Ref="i70" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i100">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\Libraries</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i72" />
-                <SourceItem z:Ref="i73" />
-                <SourceItem z:Ref="i74" />
-                <SourceItem z:Ref="i75" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i101">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\Efficiency_Class D Amplifier\Libraries</RelativePath>
-            <DependentItems>
+                <SourceItem z:Ref="i76" />
                 <SourceItem z:Ref="i77" />
                 <SourceItem z:Ref="i78" />
                 <SourceItem z:Ref="i79" />
-                <SourceItem z:Ref="i80" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i102">
+        <SourceItem z:Id="i114">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Generation_Class D Amplifier\Libraries</RelativePath>
+            <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier\Libraries</RelativePath>
             <DependentItems>
+                <SourceItem z:Ref="i81" />
                 <SourceItem z:Ref="i82" />
                 <SourceItem z:Ref="i83" />
                 <SourceItem z:Ref="i84" />
-                <SourceItem z:Ref="i85" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i103">
+        <SourceItem z:Id="i115">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries</RelativePath>
+            <RelativePath>..\builds\Efficiency_Class D Amplifier\Libraries</RelativePath>
             <DependentItems>
+                <SourceItem z:Ref="i86" />
                 <SourceItem z:Ref="i87" />
                 <SourceItem z:Ref="i88" />
                 <SourceItem z:Ref="i89" />
-                <SourceItem z:Ref="i90" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i104">
+        <SourceItem z:Id="i116">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries</RelativePath>
+            <RelativePath>..\builds\Generation_Class D Amplifier\Libraries</RelativePath>
             <DependentItems>
+                <SourceItem z:Ref="i91" />
                 <SourceItem z:Ref="i92" />
                 <SourceItem z:Ref="i93" />
                 <SourceItem z:Ref="i94" />
-                <SourceItem z:Ref="i95" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i105">
+        <SourceItem z:Id="i117">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i96" />
+                <SourceItem z:Ref="i97" />
+                <SourceItem z:Ref="i98" />
+                <SourceItem z:Ref="i99" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i118">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Single Tone_Class D Amplifier\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i101" />
+                <SourceItem z:Ref="i102" />
+                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i104" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i119">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier\Libraries</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i106" />
+                <SourceItem z:Ref="i107" />
+                <SourceItem z:Ref="i108" />
+                <SourceItem z:Ref="i109" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i120">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Crosstalk_Class D Amplifier</RelativePath>
             <DependentItems>
@@ -732,12 +837,12 @@
                 <SourceItem z:Ref="i4" />
                 <SourceItem z:Ref="i5" />
                 <SourceItem z:Ref="i6" />
-                <SourceItem z:Ref="i99" />
-                <SourceItem z:Ref="i66" />
+                <SourceItem z:Ref="i113" />
+                <SourceItem z:Ref="i75" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i106">
+        <SourceItem z:Id="i121">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency Sweep_Class D Amplifier</RelativePath>
             <DependentItems>
@@ -745,12 +850,12 @@
                 <SourceItem z:Ref="i13" />
                 <SourceItem z:Ref="i14" />
                 <SourceItem z:Ref="i15" />
-                <SourceItem z:Ref="i71" />
-                <SourceItem z:Ref="i100" />
+                <SourceItem z:Ref="i80" />
+                <SourceItem z:Ref="i114" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i107">
+        <SourceItem z:Id="i122">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Efficiency_Class D Amplifier</RelativePath>
             <DependentItems>
@@ -758,12 +863,12 @@
                 <SourceItem z:Ref="i22" />
                 <SourceItem z:Ref="i23" />
                 <SourceItem z:Ref="i24" />
-                <SourceItem z:Ref="i76" />
-                <SourceItem z:Ref="i101" />
+                <SourceItem z:Ref="i85" />
+                <SourceItem z:Ref="i115" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i108">
+        <SourceItem z:Id="i123">
             <PluginConfigurationOptions />
             <RelativePath>..\builds\Generation_Class D Amplifier</RelativePath>
             <DependentItems>
@@ -771,743 +876,855 @@
                 <SourceItem z:Ref="i31" />
                 <SourceItem z:Ref="i32" />
                 <SourceItem z:Ref="i33" />
-                <SourceItem z:Ref="i81" />
-                <SourceItem z:Ref="i102" />
+                <SourceItem z:Ref="i90" />
+                <SourceItem z:Ref="i116" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i109">
+        <SourceItem z:Id="i124">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Single Tone_Class D Amplifier</RelativePath>
+            <RelativePath>..\builds\Single Tone No Gen_Class D Amplifier</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i53" />
                 <SourceItem z:Ref="i54" />
                 <SourceItem z:Ref="i55" />
                 <SourceItem z:Ref="i56" />
-                <SourceItem z:Ref="i86" />
-                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i95" />
+                <SourceItem z:Ref="i117" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i110">
+        <SourceItem z:Id="i125">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier</RelativePath>
+            <RelativePath>..\builds\Single Tone_Class D Amplifier</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i62" />
                 <SourceItem z:Ref="i63" />
                 <SourceItem z:Ref="i64" />
                 <SourceItem z:Ref="i65" />
-                <SourceItem z:Ref="i104" />
-                <SourceItem z:Ref="i91" />
+                <SourceItem z:Ref="i100" />
+                <SourceItem z:Ref="i118" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i111">
+        <SourceItem z:Id="i126">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Stepped Frequency Sweep_Class D Amplifier</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i71" />
+                <SourceItem z:Ref="i72" />
+                <SourceItem z:Ref="i73" />
+                <SourceItem z:Ref="i74" />
+                <SourceItem z:Ref="i119" />
+                <SourceItem z:Ref="i105" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i127">
             <PluginConfigurationOptions />
             <RelativePath>..\builds</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i105" />
-                <SourceItem z:Ref="i110" />
-                <SourceItem z:Ref="i109" />
-                <SourceItem z:Ref="i106" />
-                <SourceItem z:Ref="i107" />
-                <SourceItem z:Ref="i108" />
-                <SourceItem z:Ref="i98" />
+                <SourceItem z:Ref="i120" />
+                <SourceItem z:Ref="i126" />
+                <SourceItem z:Ref="i125" />
+                <SourceItem z:Ref="i121" />
+                <SourceItem z:Ref="i122" />
+                <SourceItem z:Ref="i123" />
+                <SourceItem z:Ref="i112" />
+                <SourceItem z:Ref="i124" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
     </SourceItems>
     <InputSourceItems>
-        <SourceItem z:Ref="i111" />
+        <SourceItem z:Ref="i127" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i112" i:type="Package">
+        <Distribution z:Id="i128" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i113" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i129" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
                     <Name>National Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i114" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i130" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink</DestinationRelativePath>
                     <Name>MeasurementLink</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i115" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i131" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services</DestinationRelativePath>
                     <Name>Services</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i116" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i132" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier</DestinationRelativePath>
                     <Name>Class D Amplifier</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i117" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i133" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier</DestinationRelativePath>
                     <Name>Crosstalk_Class D Amplifier</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i118" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i134" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Crosstalk_ClassDAmplifier.aliases</DestinationRelativePath>
                     <Name>Crosstalk_ClassDAmplifier.aliases</Name>
                     <SourceItem z:Ref="i3" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i119" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i135" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Crosstalk_ClassDAmplifier.ini</DestinationRelativePath>
                     <Name>Crosstalk_ClassDAmplifier.ini</Name>
                     <SourceItem z:Ref="i5" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i120" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i136" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Crosstalk_ClassDAmplifier.serviceconfig</DestinationRelativePath>
                     <Name>Crosstalk_ClassDAmplifier.serviceconfig</Name>
                     <SourceItem z:Ref="i6" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i121" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i137" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i122" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i138" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i123" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i139" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i7" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i124" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i140" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i125" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i141" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i8" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i126" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i142" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i127" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i143" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i9" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i128" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i144" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i129" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i145" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i10" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i130" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i146" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\BuildUI</DestinationRelativePath>
                     <Name>BuildUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i131" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i147" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\BuildUI\Crosstalk UI.lvlibp</DestinationRelativePath>
                     <Name>Crosstalk UI.lvlibp</Name>
                     <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i132" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i148" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier</DestinationRelativePath>
                     <Name>Single Tone_Class D Amplifier</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i133" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i149" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.aliases</DestinationRelativePath>
                     <Name>Single Tone_Class D Amplifier.aliases</Name>
-                    <SourceItem z:Ref="i53" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i134" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.exe</DestinationRelativePath>
-                    <Name>Single Tone_Class D Amplifier.exe</Name>
-                    <SourceItem z:Ref="i54" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i135" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.ini</DestinationRelativePath>
-                    <Name>Single Tone_Class D Amplifier.ini</Name>
-                    <SourceItem z:Ref="i55" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i136" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.serviceconfig</DestinationRelativePath>
-                    <Name>Single Tone_Class D Amplifier.serviceconfig</Name>
-                    <SourceItem z:Ref="i56" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i137" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\BuiltUI</DestinationRelativePath>
-                    <Name>BuiltUI</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i138" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\BuiltUI\Single Tone_Class D Amplifier_UI.lvlibp</DestinationRelativePath>
-                    <Name>Single Tone_Class D Amplifier_UI.lvlibp</Name>
-                    <SourceItem z:Ref="i48" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i139" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i140" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i141" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i49" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i142" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i143" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i50" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i144" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i145" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i51" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i146" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i147" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i52" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i148" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier</DestinationRelativePath>
-                    <Name>Stepped Frequency Sweep_Class D Amplifier</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i149" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.aliases</DestinationRelativePath>
-                    <Name>Stepped Sweep_Class D Amplifier.aliases</Name>
                     <SourceItem z:Ref="i62" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i150" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.exe</DestinationRelativePath>
-                    <Name>Stepped Sweep_Class D Amplifier.exe</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.exe</DestinationRelativePath>
+                    <Name>Single Tone_Class D Amplifier.exe</Name>
                     <SourceItem z:Ref="i63" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i151" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.ini</DestinationRelativePath>
-                    <Name>Stepped Sweep_Class D Amplifier.ini</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.ini</DestinationRelativePath>
+                    <Name>Single Tone_Class D Amplifier.ini</Name>
                     <SourceItem z:Ref="i64" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i152" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.serviceconfig</DestinationRelativePath>
-                    <Name>Stepped Sweep_Class D Amplifier.serviceconfig</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Single Tone_Class D Amplifier.serviceconfig</DestinationRelativePath>
+                    <Name>Single Tone_Class D Amplifier.serviceconfig</Name>
                     <SourceItem z:Ref="i65" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i153" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i154" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\BuiltUI\Single Tone_Class D Amplifier_UI.lvlibp</DestinationRelativePath>
+                    <Name>Single Tone_Class D Amplifier_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i57" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i155" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i154" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
+                <DistributionItem z:Id="i156" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i155" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                <DistributionItem z:Id="i157" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i58" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i156" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
+                <DistributionItem z:Id="i158" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i157" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                <DistributionItem z:Id="i159" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i59" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i158" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
+                <DistributionItem z:Id="i160" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i159" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                <DistributionItem z:Id="i161" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i60" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i160" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
+                <DistributionItem z:Id="i162" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i161" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                <DistributionItem z:Id="i163" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i61" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i162" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i164" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier</DestinationRelativePath>
+                    <Name>Stepped Frequency Sweep_Class D Amplifier</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i165" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.aliases</DestinationRelativePath>
+                    <Name>Stepped Sweep_Class D Amplifier.aliases</Name>
+                    <SourceItem z:Ref="i71" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i166" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.exe</DestinationRelativePath>
+                    <Name>Stepped Sweep_Class D Amplifier.exe</Name>
+                    <SourceItem z:Ref="i72" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i167" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.ini</DestinationRelativePath>
+                    <Name>Stepped Sweep_Class D Amplifier.ini</Name>
+                    <SourceItem z:Ref="i73" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i168" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Stepped Sweep_Class D Amplifier.serviceconfig</DestinationRelativePath>
+                    <Name>Stepped Sweep_Class D Amplifier.serviceconfig</Name>
+                    <SourceItem z:Ref="i74" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i169" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i170" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i171" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i67" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i172" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i173" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i68" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i174" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i175" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i69" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i176" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i177" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i70" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i178" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\BuildUI</DestinationRelativePath>
                     <Name>BuildUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i163" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i179" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Stepped Frequency Sweep_Class D Amplifier\BuildUI\Stepped Frequency Sweep UI.lvlibp</DestinationRelativePath>
                     <Name>Stepped Frequency Sweep UI.lvlibp</Name>
-                    <SourceItem z:Ref="i57" />
+                    <SourceItem z:Ref="i66" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i164" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i180" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Crosstalk_Class D Amplifier\Crosstalk_ClassDAmplifier.exe</DestinationRelativePath>
                     <Name>Crosstalk_ClassDAmplifier.exe</Name>
                     <SourceItem z:Ref="i4" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i165" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i181" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier</DestinationRelativePath>
                     <Name>Efficiency Sweep_Class D Amplifier</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i166" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i182" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Efficinecy Sweep_Class D Amplifier.aliases</DestinationRelativePath>
                     <Name>Efficinecy Sweep_Class D Amplifier.aliases</Name>
                     <SourceItem z:Ref="i12" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i167" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i183" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Efficinecy Sweep_Class D Amplifier.exe</DestinationRelativePath>
                     <Name>Efficinecy Sweep_Class D Amplifier.exe</Name>
                     <SourceItem z:Ref="i13" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i168" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i184" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Efficinecy Sweep_Class D Amplifier.ini</DestinationRelativePath>
                     <Name>Efficinecy Sweep_Class D Amplifier.ini</Name>
                     <SourceItem z:Ref="i14" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i169" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i185" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Efficinecy Sweep_Class D Amplifier.serviceconfig</DestinationRelativePath>
                     <Name>Efficinecy Sweep_Class D Amplifier.serviceconfig</Name>
                     <SourceItem z:Ref="i15" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i170" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i186" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\BuildUI</DestinationRelativePath>
                     <Name>BuildUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i171" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i187" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\BuildUI\Efficiency Sweep UI.lvlibp</DestinationRelativePath>
                     <Name>Efficiency Sweep UI.lvlibp</Name>
                     <SourceItem z:Ref="i11" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i172" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i188" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i173" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i189" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i174" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i190" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i16" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i175" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i191" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i176" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i192" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i17" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i177" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i193" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i178" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i194" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i18" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i179" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i195" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i180" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i196" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency Sweep_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i19" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i181" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i197" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier</DestinationRelativePath>
                     <Name>Efficiency_Class D Amplifier</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i182" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i198" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Efficiency_Class D Amplifier.aliases</DestinationRelativePath>
                     <Name>Efficiency_Class D Amplifier.aliases</Name>
                     <SourceItem z:Ref="i21" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i183" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i199" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Efficiency_Class D Amplifier.exe</DestinationRelativePath>
                     <Name>Efficiency_Class D Amplifier.exe</Name>
                     <SourceItem z:Ref="i22" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i184" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i200" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Efficiency_Class D Amplifier.ini</DestinationRelativePath>
                     <Name>Efficiency_Class D Amplifier.ini</Name>
                     <SourceItem z:Ref="i23" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i185" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i201" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Efficiency_Class D Amplifier.serviceconfig</DestinationRelativePath>
                     <Name>Efficiency_Class D Amplifier.serviceconfig</Name>
                     <SourceItem z:Ref="i24" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i186" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i202" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i187" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i203" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\BuiltUI\Efficiency_Class D Amplifier_UI.lvlibp</DestinationRelativePath>
                     <Name>Efficiency_Class D Amplifier_UI.lvlibp</Name>
                     <SourceItem z:Ref="i20" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i188" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i204" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i189" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i205" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i190" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i206" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i25" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i191" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i207" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i192" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i208" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i26" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i193" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i209" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i194" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i210" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i27" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i195" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i211" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i196" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i212" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Efficiency_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i28" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i197" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i213" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier</DestinationRelativePath>
                     <Name>Generation_Class D Amplifier</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i198" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i214" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Generation_Class D Amplifier.aliases</DestinationRelativePath>
                     <Name>Generation_Class D Amplifier.aliases</Name>
                     <SourceItem z:Ref="i30" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i199" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i215" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Generation_Class D Amplifier.exe</DestinationRelativePath>
                     <Name>Generation_Class D Amplifier.exe</Name>
                     <SourceItem z:Ref="i31" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i200" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i216" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Generation_Class D Amplifier.ini</DestinationRelativePath>
                     <Name>Generation_Class D Amplifier.ini</Name>
                     <SourceItem z:Ref="i32" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i201" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i217" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Generation_Class D Amplifier.serviceconfig</DestinationRelativePath>
                     <Name>Generation_Class D Amplifier.serviceconfig</Name>
                     <SourceItem z:Ref="i33" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i202" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i218" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i203" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i219" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\BuiltUI\Generation_Class D Amplifier_UI.lvlibp</DestinationRelativePath>
                     <Name>Generation_Class D Amplifier_UI.lvlibp</Name>
                     <SourceItem z:Ref="i29" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i204" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i220" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i205" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i221" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i206" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i34" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i207" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i223" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i208" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i224" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i35" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i209" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i225" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i210" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i226" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i36" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i211" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i227" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i212" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i228" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Generation_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i37" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i213" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i229" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation</DestinationRelativePath>
                     <Name>AudioValidation</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i214" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i230" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility</DestinationRelativePath>
                     <Name>Utility</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i215" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i231" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\AudioGenerationService.aliases</DestinationRelativePath>
                     <Name>AudioGenerationService.aliases</Name>
                     <SourceItem z:Ref="i38" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i216" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i232" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\AudioGenerationService.exe</DestinationRelativePath>
                     <Name>AudioGenerationService.exe</Name>
                     <SourceItem z:Ref="i39" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i217" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i233" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\AudioGenerationService.ini</DestinationRelativePath>
                     <Name>AudioGenerationService.ini</Name>
                     <SourceItem z:Ref="i40" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i218" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i234" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.aliases</DestinationRelativePath>
                     <Name>DeleteServices_Audio.aliases</Name>
                     <SourceItem z:Ref="i41" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i219" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i235" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.exe</DestinationRelativePath>
                     <Name>DeleteServices_Audio.exe</Name>
                     <SourceItem z:Ref="i42" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i220" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i236" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\DeleteServices_Audio.ini</DestinationRelativePath>
                     <Name>DeleteServices_Audio.ini</Name>
                     <SourceItem z:Ref="i43" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i221" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i237" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.aliases</DestinationRelativePath>
                     <Name>RegisterServices_Audio.aliases</Name>
                     <SourceItem z:Ref="i44" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i238" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.exe</DestinationRelativePath>
                     <Name>RegisterServices_Audio.exe</Name>
                     <SourceItem z:Ref="i45" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i223" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i239" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\RegisterServices_Audio.ini</DestinationRelativePath>
                     <Name>RegisterServices_Audio.ini</Name>
                     <SourceItem z:Ref="i46" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i224" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i240" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Program Files (64-bit)]\AudioValidation\Utility\srvany.exe</DestinationRelativePath>
                     <Name>srvany.exe</Name>
                     <SourceItem z:Ref="i47" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i241" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier</DestinationRelativePath>
+                    <Name>Single Tone No Gen_Class D Amplifier</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i242" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.aliases</DestinationRelativePath>
+                    <Name>Single Tone No Gen_Class D Amplifier.aliases</Name>
+                    <SourceItem z:Ref="i53" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i243" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.exe</DestinationRelativePath>
+                    <Name>Single Tone No Gen_Class D Amplifier.exe</Name>
+                    <SourceItem z:Ref="i54" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i244" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.ini</DestinationRelativePath>
+                    <Name>Single Tone No Gen_Class D Amplifier.ini</Name>
+                    <SourceItem z:Ref="i55" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i245" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Single Tone No Gen_Class D Amplifier.serviceconfig</DestinationRelativePath>
+                    <Name>Single Tone No Gen_Class D Amplifier.serviceconfig</Name>
+                    <SourceItem z:Ref="i56" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i246" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\BuiltUI</DestinationRelativePath>
+                    <Name>BuiltUI</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i247" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\BuiltUI\Single Tone No Gen_Class D Amplifier_UI.lvlibp</DestinationRelativePath>
+                    <Name>Single Tone No Gen_Class D Amplifier_UI.lvlibp</Name>
+                    <SourceItem z:Ref="i48" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i248" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i249" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i250" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i49" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i251" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i252" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i50" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i253" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i254" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i51" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i255" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i256" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services\Class D Amplifier\Single Tone No Gen_Class D Amplifier\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i52" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
@@ -1518,14 +1735,14 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i225">
+            <BuildStatus z:Id="i257">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-classdamplifier_1.0.0.19_windows_x64.nipkg</FileName>
-                <Version>1.0.0.19</Version>
+                <FileName>community-classdamplifier_1.0.0.20_windows_x64.nipkg</FileName>
+                <Version>1.0.0.20</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes>
-                <CustomExecute z:Id="i226">
+                <CustomExecute z:Id="i258">
                     <Arguments i:nil="true" />
                     <ExeName>AudioValidation\Utility\RegisterServices_Audio.exe</ExeName>
                     <HideConsoleWindow>true</HideConsoleWindow>
@@ -1535,7 +1752,7 @@
                     <Step>Install</Step>
                     <Wait>false</Wait>
                 </CustomExecute>
-                <CustomExecute z:Id="i227">
+                <CustomExecute z:Id="i259">
                     <Arguments i:nil="true" />
                     <ExeName>AudioValidation\Utility\DeleteServices_Audio.exe</ExeName>
                     <HideConsoleWindow>true</HideConsoleWindow>
@@ -1548,14 +1765,14 @@
             </CustomExecutes>
             <Description>Measurements for Class D amplifiers using MeasurementLink</Description>
             <DisplayName>Class D Amplifier MeasurementLink Plug-In</DisplayName>
-            <FileName>community-classdamplifier_1.0.0.20_windows_x64.nipkg</FileName>
+            <FileName>community-classdamplifier_1.0.0.21_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/class-d-amplifier</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <PackageName>community-classdamplifier</PackageName>
             <PackageRelationships>
-                <PackageRelationship z:Id="i228">
+                <PackageRelationship z:Id="i260">
                     <Constraint>LaterOrEqual</Constraint>
                     <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
                     <PackageName>ni-labview-2021-runtime-engine</PackageName>
@@ -1568,14 +1785,14 @@
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-classdamplifier</Synopsis>
-            <Version>1.0.0.20</Version>
+            <Version>1.0.0.21</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i229">
+        <DistributionGroup z:Id="i261">
             <Distributions>
-                <Distribution z:Ref="i112" />
+                <Distribution z:Ref="i128" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
