@@ -8,7 +8,13 @@ Software dependencies:
 - MeasurementLink 2023 Q4
 - [MeasurementLink Support for LabVIEW v2.0.0.1](https://github.com/ni/measurementlink-labview/releases/tag/v2.0.0.1)
 - NI DAQmx
+- NI DCPower
 - NI RIO
+- NI Simple Message (STM) Library (*from VI Package Manager*)
+- NI PointValueMap (*from VI Package Manager*)
+- NI Qbus (*from VI Package Manager*)
+- NI Event Logger Library (*from VI Package Manager*)
+
 
 Tested with:
 - InstrumentStudio 2023 Q4
