@@ -16,6 +16,14 @@
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
 		<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
 		<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
+		<Item Name="gear.ctl" Type="VI" URL="../../shared/ui/controls/gear.ctl"/>
+		<Item Name="info.ctl" Type="VI" URL="../../shared/ui/controls/info.ctl"/>
+		<Item Name="three dots.ctl" Type="VI" URL="../../shared/ui/controls/three dots.ctl"/>
+		<Item Name="add.ctl" Type="VI" URL="../../shared/ui/controls/add.ctl"/>
+		<Item Name="subtract.ctl" Type="VI" URL="../../shared/ui/controls/subtract.ctl"/>
+		<Item Name="up.ctl" Type="VI" URL="../../shared/ui/controls/up.ctl"/>
+		<Item Name="down.ctl" Type="VI" URL="../../shared/ui/controls/down.ctl"/>
+		<Item Name="error.ctl" Type="VI" URL="../../shared/ui/controls/error.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -141,6 +149,9 @@
 				<Item Name="PointValueMap.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/PointValueMap/PointValueMap.lvlib"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -156,10 +167,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="data justification.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/data justification.ctl"/>
-			<Item Name="endianness.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/endianness.ctl"/>
-			<Item Name="digital edge.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/digital edge.ctl"/>
-			<Item Name="logic level.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/logic level.ctl"/>
 			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../shared/Triangular Probability Density Noise.vi"/>
 			<Item Name="Calculate Ouput Level for Digital Audio.vi" Type="VI" URL="../../shared/Calculate Ouput Level for Digital Audio.vi"/>
 			<Item Name="Generate Sine Wave for Digital Audio.vi" Type="VI" URL="../../shared/Generate Sine Wave for Digital Audio.vi"/>
@@ -167,6 +174,7 @@
 			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
 			<Item Name="AudioGeneration.lvclass" Type="LVClass" URL="../../service/generation/API/AudioGeneration/AudioGeneration.lvclass"/>
 			<Item Name="AudioGenUtility.lvlib" Type="Library" URL="../../service/generation/subVIs/utility/AudioGenUtility.lvlib"/>
+			<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Generation_Class D Amplifier" Type="EXE">
@@ -249,7 +257,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7E33245-0DAE-445D-BB77-FD7DF2524D5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Generation_Class D Amplifier_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Generation_Class D Amplifier_UI.lvlibp</Property>
