@@ -16,6 +16,10 @@ This plug-in makes measurements for Class D amplifiers. The tests will generate 
    - Output power
  - Crosstalk
  - Stepped Frequency Sweep
+ - Efficiency
+ - Efficiency Sweep
+
+Click here for a detailed list of measurements and their functionality: [Measurement List](docs/measurements/meas-index.md)
 
 ## Hardware Setup
 ![Hardware setup](docs/images/hw-setup.png)
@@ -32,6 +36,7 @@ Tested hardware setup:
 - Load resistors
 
 ## Software Installation
+(*This section is if you only want to use the pre-compiled plug-ins. If you want to open the source code, go to [software development](docs/sw-dev.md).*)  
 Install from NI Package Manager:
 - NI RIO (2024 Q1 or greater)
 - NI DAQmx (2024 Q1 or greater)
@@ -39,9 +44,7 @@ Install from NI Package Manager:
 - InstrumentStudio (2024 Q1 or greater)
 - MeasurementLink (2024 Q1 or greater)
 
-Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community 
-
-[comment]: # (add link to documnetation at community level)
+Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
 
 ## Getting Started
 When you are ready to start using the software, check out [this](docs/help.md).
