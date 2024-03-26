@@ -12,11 +12,13 @@
 	<Item Name="digital generation settings.ctl" Type="VI" URL="../digital generation settings.ctl"/>
 	<Item Name="digital protocol settings.ctl" Type="VI" URL="../digital protocol settings.ctl"/>
 	<Item Name="generation status.ctl" Type="VI" URL="../generation status.ctl"/>
+	<Item Name="generation type and status.ctl" Type="VI" URL="../generation type and status.ctl"/>
 	<Item Name="generation type.ctl" Type="VI" URL="../generation type.ctl"/>
 	<Item Name="service settings.ctl" Type="VI" URL="../service settings.ctl"/>
 	<Item Name="signal settings.ctl" Type="VI" URL="../signal settings.ctl"/>
 	<Item Name="signal type.ctl" Type="VI" URL="../signal type.ctl"/>
 	<Item Name="sine wave properties.ctl" Type="VI" URL="../sine wave properties.ctl"/>
 	<Item Name="square wave properties.ctl" Type="VI" URL="../square wave properties.ctl"/>
+	<Item Name="terminal configuration.ctl" Type="VI" URL="../terminal configuration.ctl"/>
 	<Item Name="update signal settings.ctl" Type="VI" URL="../update signal settings.ctl"/>
 </Library>

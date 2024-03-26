@@ -14,6 +14,7 @@
 		<Item Name="Process.vi" Type="VI" URL="../main/Process.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Get Generation Status and Type.vi" Type="VI" URL="../subVIs/Get Generation Status and Type.vi"/>
 		<Item Name="Receive Qbus Messages.vi" Type="VI" URL="../subVIs/Receive Qbus Messages.vi"/>
 		<Item Name="Registered Messages.vi" Type="VI" URL="../subVIs/Registered Messages.vi"/>
 	</Item>

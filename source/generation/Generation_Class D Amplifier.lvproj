@@ -25,6 +25,7 @@
 		<Item Name="down.ctl" Type="VI" URL="../../shared/ui/controls/down.ctl"/>
 		<Item Name="error.ctl" Type="VI" URL="../../shared/ui/controls/error.ctl"/>
 		<Item Name="generation type.ctl" Type="VI" URL="../../shared/controls/generation type.ctl"/>
+		<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

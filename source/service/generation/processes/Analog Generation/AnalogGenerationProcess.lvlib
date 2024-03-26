@@ -11,14 +11,17 @@
 	</Item>
 	<Item Name="main" Type="Folder">
 		<Item Name="Create Listener.vi" Type="VI" URL="../main/Create Listener.vi"/>
+		<Item Name="Get Generation Status.vi" Type="VI" URL="../main/Get Generation Status.vi"/>
 		<Item Name="Process Name.vi" Type="VI" URL="../main/Process Name.vi"/>
 		<Item Name="Process.vi" Type="VI" URL="../main/Process.vi"/>
 		<Item Name="Send Configure Msg.vi" Type="VI" URL="../main/Send Configure Msg.vi"/>
 		<Item Name="Send Start Msg.vi" Type="VI" URL="../main/Send Start Msg.vi"/>
 		<Item Name="Send Stop Msg.vi" Type="VI" URL="../main/Send Stop Msg.vi"/>
+		<Item Name="Set Generation Status.vi" Type="VI" URL="../main/Set Generation Status.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Configure AO task.vi" Type="VI" URL="../subVIs/Configure AO task.vi"/>
+		<Item Name="Get Point Value Map Reference.vi" Type="VI" URL="../subVIs/Get Point Value Map Reference.vi"/>
 		<Item Name="Receive Qbus Messages.vi" Type="VI" URL="../subVIs/Receive Qbus Messages.vi"/>
 		<Item Name="Registered Messages.vi" Type="VI" URL="../subVIs/Registered Messages.vi"/>
 	</Item>
