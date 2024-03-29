@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Convert from JSON Comp Format.vi" Type="VI" URL="../Convert from JSON Comp Format.vi"/>
+	<Item Name="Convert to API Format.vi" Type="VI" URL="../Convert to API Format.vi"/>
 	<Item Name="Convert to JSON Comp Format.vi" Type="VI" URL="../Convert to JSON Comp Format.vi"/>
 	<Item Name="digital audio protocol settings.ctl" Type="VI" URL="../digital audio protocol settings.ctl"/>
 	<Item Name="digital audio protocol settings_json.ctl" Type="VI" URL="../digital audio protocol settings_json.ctl"/>
