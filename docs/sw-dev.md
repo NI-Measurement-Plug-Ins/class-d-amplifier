@@ -14,7 +14,7 @@ Software dependencies:
 - NI PointValueMap (*from VI Package Manager*)
 - NI Qbus (*from VI Package Manager*)
 - NI Event Logger Library (*from VI Package Manager*)
-
+- NI LogRotate (*from VI Package Manager*)
 
 Tested with:
 - InstrumentStudio 2023 Q4
