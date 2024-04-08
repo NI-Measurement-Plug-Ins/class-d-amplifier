@@ -331,9 +331,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Generate Sine Wave for Digital Audio.vi" Type="VI" URL="../../../shared/Generate Sine Wave for Digital Audio.vi"/>
-			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../../shared/Triangular Probability Density Noise.vi"/>
-			<Item Name="Add Dither Noise.vi" Type="VI" URL="../../../shared/Add Dither Noise.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
