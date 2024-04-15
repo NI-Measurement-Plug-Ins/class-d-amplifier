@@ -334,6 +334,8 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="audio controls.lvlib" Type="Library" URL="../../../shared/controls/audio controls.lvlib"/>
+			<Item Name="Calculate Ouput Level for Digital Audio.vi" Type="VI" URL="../../../shared/Calculate Ouput Level for Digital Audio.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AudioGenerationService" Type="EXE">
