@@ -21,7 +21,8 @@
 			<Item Name="test" Type="Folder">
 				<Item Name="client example -dual tone - digital.vi" Type="VI" URL="../API/test/client example -dual tone - digital.vi"/>
 				<Item Name="client example -sine wave - digital.vi" Type="VI" URL="../API/test/client example -sine wave - digital.vi"/>
-				<Item Name="client example - analog.vi" Type="VI" URL="../API/test/client example - analog.vi"/>
+				<Item Name="client example - dual tone - analog.vi" Type="VI" URL="../API/test/client example - dual tone - analog.vi"/>
+				<Item Name="client example - sine wave - analog.vi" Type="VI" URL="../API/test/client example - sine wave - analog.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
