@@ -25,6 +25,8 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Clear Digital Audio Task.vi" Type="VI" URL="../subVIs/Clear Digital Audio Task.vi"/>
 		<Item Name="Configure Digital Audio Task.vi" Type="VI" URL="../subVIs/Configure Digital Audio Task.vi"/>
+		<Item Name="Create Dual Tone LUT.vi" Type="VI" URL="../subVIs/Create Dual Tone LUT.vi"/>
+		<Item Name="Create Sine Wave LUT.vi" Type="VI" URL="../subVIs/Create Sine Wave LUT.vi"/>
 		<Item Name="Get Point Value Map Reference.vi" Type="VI" URL="../subVIs/Get Point Value Map Reference.vi"/>
 		<Item Name="Receive Qbus Messages.vi" Type="VI" URL="../subVIs/Receive Qbus Messages.vi"/>
 		<Item Name="Registered Messages.vi" Type="VI" URL="../subVIs/Registered Messages.vi"/>

@@ -9,8 +9,13 @@
 </Property>
 	<Item Name="analog generation settings.ctl" Type="VI" URL="../analog generation settings.ctl"/>
 	<Item Name="analog output settings.ctl" Type="VI" URL="../analog output settings.ctl"/>
+	<Item Name="Convert Dual Tone Prop from String.vi" Type="VI" URL="../Convert Dual Tone Prop from String.vi"/>
+	<Item Name="Convert Dual Tone Prop to String.vi" Type="VI" URL="../Convert Dual Tone Prop to String.vi"/>
 	<Item Name="digital generation settings.ctl" Type="VI" URL="../digital generation settings.ctl"/>
 	<Item Name="digital protocol settings.ctl" Type="VI" URL="../digital protocol settings.ctl"/>
+	<Item Name="dual tone properties.ctl" Type="VI" URL="../dual tone properties.ctl"/>
+	<Item Name="dual tone properties_JSON.ctl" Type="VI" URL="../dual tone properties_JSON.ctl"/>
+	<Item Name="dual tone types.ctl" Type="VI" URL="../dual tone types.ctl"/>
 	<Item Name="generation status.ctl" Type="VI" URL="../generation status.ctl"/>
 	<Item Name="generation type and status.ctl" Type="VI" URL="../generation type and status.ctl"/>
 	<Item Name="generation type.ctl" Type="VI" URL="../generation type.ctl"/>

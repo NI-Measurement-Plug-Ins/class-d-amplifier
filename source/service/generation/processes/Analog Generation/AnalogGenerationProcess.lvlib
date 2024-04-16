@@ -23,6 +23,7 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Configure AO task.vi" Type="VI" URL="../subVIs/Configure AO task.vi"/>
+		<Item Name="Create Dual Tone Signal.vi" Type="VI" URL="../subVIs/Create Dual Tone Signal.vi"/>
 		<Item Name="Get Point Value Map Reference.vi" Type="VI" URL="../subVIs/Get Point Value Map Reference.vi"/>
 		<Item Name="Receive Qbus Messages.vi" Type="VI" URL="../subVIs/Receive Qbus Messages.vi"/>
 		<Item Name="Registered Messages.vi" Type="VI" URL="../subVIs/Registered Messages.vi"/>

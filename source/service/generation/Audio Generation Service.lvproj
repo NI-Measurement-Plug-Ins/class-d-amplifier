@@ -19,8 +19,10 @@
 				<Item Name="AudioGeneration.lvclass" Type="LVClass" URL="../API/AudioGeneration/AudioGeneration.lvclass"/>
 			</Item>
 			<Item Name="test" Type="Folder">
-				<Item Name="client example - digital.vi" Type="VI" URL="../API/test/client example - digital.vi"/>
-				<Item Name="client example - analog.vi" Type="VI" URL="../API/test/client example - analog.vi"/>
+				<Item Name="client example -dual tone - digital.vi" Type="VI" URL="../API/test/client example -dual tone - digital.vi"/>
+				<Item Name="client example -sine wave - digital.vi" Type="VI" URL="../API/test/client example -sine wave - digital.vi"/>
+				<Item Name="client example - dual tone - analog.vi" Type="VI" URL="../API/test/client example - dual tone - analog.vi"/>
+				<Item Name="client example - sine wave - analog.vi" Type="VI" URL="../API/test/client example - sine wave - analog.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -317,6 +319,7 @@
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="LogRotate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/LogRotate/LogRotate.lvclass"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
