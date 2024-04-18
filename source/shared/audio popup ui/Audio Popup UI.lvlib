@@ -8,6 +8,10 @@
 
 </Property>
 	<Item Name="Analog Gen Cfg Popup.vi" Type="VI" URL="../Analog Gen Cfg Popup.vi"/>
+	<Item Name="audio settings.ctl" Type="VI" URL="../audio settings.ctl"/>
 	<Item Name="Digital Serial Gen Cfg Popup.vi" Type="VI" URL="../Digital Serial Gen Cfg Popup.vi"/>
+	<Item Name="Get Audio Settings File Path.vi" Type="VI" URL="../Get Audio Settings File Path.vi"/>
+	<Item Name="Get Audio Settings.vi" Type="VI" URL="../Get Audio Settings.vi"/>
 	<Item Name="Popup Template.vi" Type="VI" URL="../Popup Template.vi"/>
+	<Item Name="Set Digital Serial File Path.vi" Type="VI" URL="../Set Digital Serial File Path.vi"/>
 </Library>
