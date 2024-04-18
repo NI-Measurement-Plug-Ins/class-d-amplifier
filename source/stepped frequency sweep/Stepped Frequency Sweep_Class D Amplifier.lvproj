@@ -551,8 +551,6 @@
 			<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
 			<Item Name="Convert Units - Ratios.vi" Type="VI" URL="../../shared/Convert Units - Ratios.vi"/>
 			<Item Name="Convert Digital Output Level Units.vi" Type="VI" URL="../../shared/Convert Digital Output Level Units.vi"/>
-			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../shared/Triangular Probability Density Noise.vi"/>
-			<Item Name="Add Dither Noise.vi" Type="VI" URL="../../shared/Add Dither Noise.vi"/>
 			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
 			<Item Name="regulation target value units.ctl" Type="VI" URL="../../shared/controls/regulation target value units.ctl"/>
 			<Item Name="Check for End of Output Sweep.vi" Type="VI" URL="../../shared/Check for End of Output Sweep.vi"/>
@@ -560,7 +558,6 @@
 			<Item Name="Check for Regulation Target Crossing.vi" Type="VI" URL="../../shared/Check for Regulation Target Crossing.vi"/>
 			<Item Name="Determine Next Regulation Generation Level.vi" Type="VI" URL="../../shared/Determine Next Regulation Generation Level.vi"/>
 			<Item Name="Find Regulation Target Crossing.vi" Type="VI" URL="../../shared/Find Regulation Target Crossing.vi"/>
-			<Item Name="Single Tone Measurement (IO).vi" Type="VI" URL="../../shared/Single Tone Measurement (IO).vi"/>
 			<Item Name="regulation target.ctl" Type="VI" URL="../../shared/controls/regulation target.ctl"/>
 			<Item Name="regulation settings.ctl" Type="VI" URL="../../shared/controls/regulation settings.ctl"/>
 			<Item Name="single tone measurement settings (HW).ctl" Type="VI" URL="../../shared/controls/single tone measurement settings (HW).ctl"/>
@@ -569,6 +566,11 @@
 			<Item Name="weighting filter.ctl" Type="VI" URL="../../shared/controls/weighting filter.ctl"/>
 			<Item Name="single tone audio measurement settings.ctl" Type="VI" URL="../../shared/controls/single tone audio measurement settings.ctl"/>
 			<Item Name="audio filter settings.ctl" Type="VI" URL="../../shared/controls/audio filter settings.ctl"/>
+			<Item Name="Sweep - Create Tasks.vi" Type="VI" URL="../../shared/Sweep - Create Tasks.vi"/>
+			<Item Name="Update Digital Audio Generation (Freq and Amp).vi" Type="VI" URL="../../shared/Update Digital Audio Generation (Freq and Amp).vi"/>
+			<Item Name="Single Tone Measurement with Filtering.vi" Type="VI" URL="../../shared/Single Tone Measurement with Filtering.vi"/>
+			<Item Name="Finite DAQmx Read.vi" Type="VI" URL="../../shared/Finite DAQmx Read.vi"/>
+			<Item Name="Clear PCM Tasks.vi" Type="VI" URL="../../shared/Clear PCM Tasks.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Stepped Sweep_Class D Amplifier" Type="EXE">
