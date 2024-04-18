@@ -14,8 +14,6 @@
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier_UI.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier UI/Stepped Frequency Sweep_Class D Amplifier_UI.lvlib"/>
 		<Item Name="Stepped Frequency Sweep_Class D Amplifier.lvlib" Type="Library" URL="../Stepped Sweep_Class D Amplifier/Stepped Frequency Sweep_Class D Amplifier.lvlib"/>
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
-		<Item Name="Finite DAQmx Read.vi" Type="VI" URL="../../shared/Finite DAQmx Read.vi"/>
-		<Item Name="Clear PCM Tasks.vi" Type="VI" URL="../../shared/Clear PCM Tasks.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -571,6 +569,8 @@
 			<Item Name="Sweep - Create Tasks.vi" Type="VI" URL="../../shared/Sweep - Create Tasks.vi"/>
 			<Item Name="Update Digital Audio Generation (Freq and Amp).vi" Type="VI" URL="../../shared/Update Digital Audio Generation (Freq and Amp).vi"/>
 			<Item Name="Single Tone Measurement with Filtering.vi" Type="VI" URL="../../shared/Single Tone Measurement with Filtering.vi"/>
+			<Item Name="Finite DAQmx Read.vi" Type="VI" URL="../../shared/Finite DAQmx Read.vi"/>
+			<Item Name="Clear PCM Tasks.vi" Type="VI" URL="../../shared/Clear PCM Tasks.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Stepped Sweep_Class D Amplifier" Type="EXE">
