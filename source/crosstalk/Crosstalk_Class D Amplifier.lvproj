@@ -489,6 +489,9 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -512,10 +515,6 @@
 			<Item Name="Audio Filtering (Time Domain).vi" Type="VI" URL="../../shared/Audio Filtering (Time Domain).vi"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Calculate Waveform Subset for Measurement.vi" Type="VI" URL="../../shared/Calculate Waveform Subset for Measurement.vi"/>
-			<Item Name="data justification.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/data justification.ctl"/>
-			<Item Name="endianness.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/endianness.ctl"/>
-			<Item Name="digital edge.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/digital edge.ctl"/>
-			<Item Name="logic level.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/logic level.ctl"/>
 			<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
 			<Item Name="Convert Digital Output Level Units.vi" Type="VI" URL="../../shared/Convert Digital Output Level Units.vi"/>
 			<Item Name="Triangular Probability Density Noise.vi" Type="VI" URL="../../shared/Triangular Probability Density Noise.vi"/>
@@ -527,6 +526,10 @@
 			<Item Name="Array to Spectrum (N Ch).vi" Type="VI" URL="../../shared/Array to Spectrum (N Ch).vi"/>
 			<Item Name="weighting filter.ctl" Type="VI" URL="../../shared/controls/weighting filter.ctl"/>
 			<Item Name="audio filter settings.ctl" Type="VI" URL="../../shared/controls/audio filter settings.ctl"/>
+			<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
+			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
+			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
+			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Crosstalk_Class D Amplifier" Type="EXE">
@@ -609,7 +612,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F559CCD-0F90-4680-AAE2-A46654F7BCBE}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Crosstalk UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuildUI/Crosstalk UI.lvlibp</Property>
