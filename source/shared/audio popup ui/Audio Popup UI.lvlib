@@ -12,6 +12,7 @@
 	<Item Name="Digital Serial Gen Cfg Popup.vi" Type="VI" URL="../Digital Serial Gen Cfg Popup.vi"/>
 	<Item Name="Get Audio Settings File Path.vi" Type="VI" URL="../Get Audio Settings File Path.vi"/>
 	<Item Name="Get Audio Settings.vi" Type="VI" URL="../Get Audio Settings.vi"/>
+	<Item Name="Get Display Name for Cfg file.vi" Type="VI" URL="../Get Display Name for Cfg file.vi"/>
 	<Item Name="Popup Template.vi" Type="VI" URL="../Popup Template.vi"/>
 	<Item Name="Set Digital Serial File Path.vi" Type="VI" URL="../Set Digital Serial File Path.vi"/>
 </Library>
