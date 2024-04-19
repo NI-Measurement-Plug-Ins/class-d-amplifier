@@ -518,6 +518,9 @@
 				<Item Name="SVFA Extract Multiple Tone Information (Complex) (1 Ch).vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NISVFA/_Spectrum Processing/SVFA Extract Multiple Tone Information (Complex) (1 Ch).vi"/>
 				<Item Name="SVFA Extract Multiple Tone Information (Waveform) (1 Ch).vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NISVFA/_Spectrum Processing/SVFA Extract Multiple Tone Information (Waveform) (1 Ch).vi"/>
 				<Item Name="SVFA Extract Tone Information.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_NISVFA/_Spectrum Processing/SVFA Extract Tone Information.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
@@ -595,6 +598,10 @@
 			<Item Name="weighting filter.ctl" Type="VI" URL="../../shared/controls/weighting filter.ctl"/>
 			<Item Name="single tone audio measurement settings.ctl" Type="VI" URL="../../shared/controls/single tone audio measurement settings.ctl"/>
 			<Item Name="audio filter settings.ctl" Type="VI" URL="../../shared/controls/audio filter settings.ctl"/>
+			<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
+			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
+			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
+			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Efficiency_Class D Amplifier" Type="EXE">
@@ -674,7 +681,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7E33245-0DAE-445D-BB77-FD7DF2524D5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Efficiency_Class D Amplifier_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Efficiency_Class D Amplifier_UI.lvlibp</Property>

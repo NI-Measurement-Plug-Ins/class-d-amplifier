@@ -16,6 +16,7 @@
 		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
 		<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
 		<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
+		<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -523,6 +524,7 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -557,13 +559,10 @@
 			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
 			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
 			<Item Name="weighting filter.ctl" Type="VI" URL="../../shared/controls/weighting filter.ctl"/>
-			<Item Name="data justification.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/data justification.ctl"/>
-			<Item Name="endianness.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/endianness.ctl"/>
-			<Item Name="digital edge.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/digital edge.ctl"/>
-			<Item Name="logic level.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/logic level.ctl"/>
 			<Item Name="single tone audio measurement settings.ctl" Type="VI" URL="../../shared/controls/single tone audio measurement settings.ctl"/>
 			<Item Name="audio filter settings.ctl" Type="VI" URL="../../shared/controls/audio filter settings.ctl"/>
 			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
+			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Tone_Class D Amplifier" Type="EXE">
@@ -646,7 +645,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7E33245-0DAE-445D-BB77-FD7DF2524D5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Tone_Class D Amplifier_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Single Tone_Class D Amplifier/BuiltUI/Single Tone_Class D Amplifier_UI.lvlibp</Property>

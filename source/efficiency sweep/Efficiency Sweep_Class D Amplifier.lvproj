@@ -518,6 +518,9 @@
 				<Item Name="SVL AC &amp; DC Level (Frequency) (1 Ch).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Sound and Vibration/svt_Level/SVL AC &amp; DC Level (Frequency) (1 Ch).vi"/>
 				<Item Name="SVL AC &amp; DC Level.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Sound and Vibration/svt_Level/SVL AC &amp; DC Level.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Source Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Source Mode.ctl"/>
@@ -593,6 +596,10 @@
 			<Item Name="Single Tone Measurement with Filtering.vi" Type="VI" URL="../../shared/Single Tone Measurement with Filtering.vi"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Clear PCM Tasks.vi" Type="VI" URL="../../shared/Clear PCM Tasks.vi"/>
+			<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
+			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
+			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
+			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Efficiency Sweep_Class D Amplifier" Type="EXE">
@@ -675,7 +682,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{44246515-ED21-47B7-9DB4-59461139AFAB}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Efficiency Sweep UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuildUI/Efficiency Sweep UI.lvlibp</Property>
