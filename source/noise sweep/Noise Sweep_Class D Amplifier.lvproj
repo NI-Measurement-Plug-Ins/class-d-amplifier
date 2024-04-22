@@ -324,7 +324,6 @@
 			</Item>
 			<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
 			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
-			<Item Name="power measurement method.ctl" Type="VI" URL="../../shared/controls/power measurement method.ctl"/>
 			<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
 			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -351,6 +350,7 @@
 			<Item Name="DAQmx utility.lvlib" Type="Library" URL="../../shared/DAQmx/DAQmx utility.lvlib"/>
 			<Item Name="Build Array and Concatenate (2D).vi" Type="VI" URL="../../shared/Build Array and Concatenate (2D).vi"/>
 			<Item Name="Array to XY (N Ch).vi" Type="VI" URL="../../shared/Array to XY (N Ch).vi"/>
+			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Noise Sweep_Class D Amplifier" Type="EXE">
@@ -432,7 +432,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{44246515-ED21-47B7-9DB4-59461139AFAB}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Noise Sweep UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuildUI/Noise Sweep UI.lvlibp</Property>
