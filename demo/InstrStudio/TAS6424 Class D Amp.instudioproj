@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="37926B3A43410C5D5B2E57C82B6030893878829B0B1B9BD12836F7F45B5806DD20A61F04F17474A2B43E4C9481CC8DA7E4148A7D13F91FA094D87B4EEC1D3B2F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4FFCCB74F7781D5E85DA1DE2F8B649108392CA7C0E5E808BED0F44C737AF56A8A0B820C77CB357F5098D54649AE390C12C4B00DFD703838A7908E815C8FEF971" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
@@ -19,6 +19,7 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="4dc9731ff72f4da8a24b8e5988b9ceb9" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Efficiency Sweep.sfp" StoragePath="Efficiency Sweep.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="52a97dcb90cf42f28d65a02f47845524" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Generation Panel.sfp" StoragePath="Generation Panel.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="c8f8cdfe695d44fbbffed2bc9138cafc" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Single Tone (Acq Only).sfp" StoragePath="Single Tone (Acq Only).sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="bd330999773540f8a628b4504a9091fa" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Idle Channel Noise Sweep.sfp" StoragePath="Idle Channel Noise Sweep.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
