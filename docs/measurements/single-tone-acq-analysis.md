@@ -1,6 +1,9 @@
 # Single Tone (Acquisition and Analysis)
 This service acquires an analog signal from a DAQmx supported device and performs single tone analysis.
 
+## Digital Audio
+Refer to [Digital Audio Serial Interface](../measurements/common/digital-serial.md) for details on how to setup the digital audio interface.
+
 ## InstrumentStudio panel
 ### Usage
 Configure your acquisition and analysis settings in the **Measurements** tab. You can also adjust the units the measurements are reported in on the **Units** tab.

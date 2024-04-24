@@ -1,6 +1,9 @@
 # Efficiency Sweep
 This service measures the efficiency of the amplifier at multiple output levels. Two different methods for measuring efficiency are supported. Read up on these methods at [Efficiency Measurement Techniques](common/efficiency-measurement.md)
 
+## Digital Audio
+Refer to [Digital Audio Serial Interface](../measurements/common/digital-serial.md) for details on how to setup the digital audio interface.
+
 ## InstrumentStudio Panel
 ### Usage
 ![Efficiency Sweep Panel](meas-images/efficiency-sweep.png)

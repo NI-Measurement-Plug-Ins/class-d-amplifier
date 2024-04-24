@@ -1,6 +1,9 @@
 # Efficiency
 This service measures the efficiency of the amplifier at a specified output level and frequency. Two different methods for measuring efficiency are supported. Read up on these methods at [Efficiency Measurement Techniques](common/efficiency-measurement.md)
 
+## Digital Audio
+Refer to [Digital Audio Serial Interface](../measurements/common/digital-serial.md) for details on how to setup the digital audio interface.
+
 ## InstrumentStudio Panel
 ### Usage
 ![Efficiency Panel](meas-images/efficiency.png)

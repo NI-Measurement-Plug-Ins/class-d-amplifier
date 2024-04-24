@@ -1,6 +1,8 @@
 # Crosstalk
 This service measures the crosstalk from one interferrer channel to one or more victim channels. 
 
+## Digital Audio
+Refer to [Digital Audio Serial Interface](../measurements/common/digital-serial.md) for details on how to setup the digital audio interface.
 ## InstrumentStudio Panel
 ### Usage
 In the Output Configuration section, enter the details for your digital communication settings. In the Measurement section, enter the information for the crosstalk measurement.  
