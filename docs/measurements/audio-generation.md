@@ -4,6 +4,9 @@ This service will generate a continuous audio signal.
 ## Signal Types
 - Sine Wave
 
+## Digital Audio
+Refer to [Digital Audio Serial Interface](../measurements/common/digital-serial.md) for details on how to setup the digital audio interface.
+
 ## InstrumentStudio Panel
 ### Usage
 In the Output Configuration section, enter the details for your digital communication settings. In the Signal Generation section, enter the details of the sine wave to generate. Use the **Action** control to start, stop, or update the signal. Press the **RUN** button to for your selections to be active.  
