@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A30AE4B82D47C7C04EDD68A2B4B0BFD122B8C81323AB32B9514DFA75FC2F93EE6459D90A870110EECC8882D8A79048A26EC489F6DF389CFF92475E03DB384F69" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C69436FCD9994C44F4072DBD944EBEA40FBF7B61BC13E4529F55F3D6681862D4C0AA813E9EA9F6DDB789C1810B4325B6BC78419A86BE31D118257459263B7DB1" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
@@ -21,6 +21,7 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="c8f8cdfe695d44fbbffed2bc9138cafc" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Single Tone (Acq Only).sfp" StoragePath="Single Tone (Acq Only).sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="bd330999773540f8a628b4504a9091fa" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Idle Channel Noise Sweep.sfp" StoragePath="Idle Channel Noise Sweep.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="37b24ef829de4396818aa69865f4159b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Power Sweep.sfp" StoragePath="Power Sweep.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="189d8681f3fe49328463e330e4d21531" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Crosstalk Sweep.sfp" StoragePath="Crosstalk Sweep.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
