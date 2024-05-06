@@ -5,6 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
-	<Item Name="Set Visible Plot.vi" Type="VI" URL="../Set Visible Plot.vi"/>
 	<Item Name="UI State.ctl" Type="VI" URL="../UI State.ctl"/>
 </Library>

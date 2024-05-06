@@ -13,8 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Crosstalk Sweep_UI.lvlib" Type="Library" URL="../Crosstalk Sweep UI/Crosstalk Sweep_UI.lvlib"/>
 		<Item Name="Crosstalk Sweep.lvlib" Type="Library" URL="../Crosstalk Sweep/Crosstalk Sweep.lvlib"/>
-		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
-		<Item Name="crosstalk measurement settings (HW).ctl" Type="VI" URL="../../shared/controls/crosstalk measurement settings (HW).ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -473,7 +471,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="power measurement method.ctl" Type="VI" URL="../../shared/controls/power measurement method.ctl"/>
 			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
 			<Item Name="Array to Spectra (N Ch).vi" Type="VI" URL="../../shared/Array to Spectra (N Ch).vi"/>
 			<Item Name="Array to XY (N Ch).vi" Type="VI" URL="../../shared/Array to XY (N Ch).vi"/>
@@ -499,10 +496,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
-			<Item Name="data justification.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/data justification.ctl"/>
-			<Item Name="endianness.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/endianness.ctl"/>
-			<Item Name="digital edge.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/digital edge.ctl"/>
-			<Item Name="logic level.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/logic level.ctl"/>
 			<Item Name="Generate Sine Wave for Digital Audio - Crosstalk.vi" Type="VI" URL="../../shared/Generate Sine Wave for Digital Audio - Crosstalk.vi"/>
 			<Item Name="Digital Serial.lvclass" Type="LVClass" URL="../../shared/digital serial api/Digital Serial.lvclass"/>
 			<Item Name="Calculate Waveform Subset for Measurement.vi" Type="VI" URL="../../shared/Calculate Waveform Subset for Measurement.vi"/>
@@ -512,9 +505,11 @@
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Crosstalk (N Chan).vi" Type="VI" URL="../../crosstalk/Crosstalk_Class D Amplifier/subVIs/Crosstalk (N Chan).vi"/>
 			<Item Name="Build Array.vi" Type="VI" URL="../../shared/Build Array.vi"/>
+			<Item Name="Format Channel Names - Crosstalk.vi" Type="VI" URL="../../crosstalk/Crosstalk_Class D Amplifier/subVIs/Format Channel Names - Crosstalk.vi"/>
+			<Item Name="Convert Digital Output Level Units.vi" Type="VI" URL="../../shared/Convert Digital Output Level Units.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Single Tone Power Sweep" Type="EXE">
+			<Item Name="Crosstalk Sweep" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1DC9FDF7-CC94-4D65-BAF3-A62778FFCE2F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{17CAA5CC-A8F0-4625-ACAD-B48036FFA2F7}</Property>
@@ -522,7 +517,7 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F005A820-1E5A-4C2D-8556-DC6688A4A50F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Single Tone Power Sweep</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Crosstalk Sweep</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -530,9 +525,10 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Crosstalk Sweep.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C44F4A25-F5A9-49F2-8252-5E3F58670682}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Single Tone Power Sweep.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/NI_AB_PROJECTNAME/Single Tone Power Sweep.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Crosstalk Sweep.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/NI_AB_PROJECTNAME/Crosstalk Sweep.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -540,7 +536,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/dev/class-d-amplifier/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{998CB245-9624-4FD6-A157-7F13527BB0EA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2487DDC8-BC02-4893-A111-0695A6F96503}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Crosstalk Sweep.lvlib/Get Measurement Details.vi</Property>
@@ -575,28 +571,28 @@
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Single Tone Power Sweep</Property>
-				<Property Name="TgtF_internalName" Type="Str">Single Tone Power Sweep</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Crosstalk Sweep</Property>
+				<Property Name="TgtF_internalName" Type="Str">Crosstalk Sweep</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">Single Tone Power Sweep</Property>
+				<Property Name="TgtF_productName" Type="Str">Crosstalk Sweep</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B6E5DB40-30F0-4ECE-878A-2974DF249154}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Single Tone Power Sweep.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Crosstalk Sweep.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Single Tone Power Sweep UI" Type="Packed Library">
+			<Item Name="Crosstalk Sweep UI" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1FFF1067-42E3-4BDB-ACB5-574C611C886C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Single Tone Power Sweep UI</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Crosstalk Sweep UI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{44246515-ED21-47B7-9DB4-59461139AFAB}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Single Tone Power Sweep UI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Single Tone Power Sweep UI.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Crosstalk Sweep UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Crosstalk Sweep UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -605,7 +601,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{998CB245-9624-4FD6-A157-7F13527BB0EA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2487DDC8-BC02-4893-A111-0695A6F96503}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Crosstalk Sweep_UI.lvlib</Property>
@@ -616,12 +612,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Single Tone Power Sweep UI</Property>
-				<Property Name="TgtF_internalName" Type="Str">Single Tone Power Sweep UI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Crosstalk Sweep UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Crosstalk Sweep UI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
-				<Property Name="TgtF_productName" Type="Str">Single Tone Power Sweep UI</Property>
+				<Property Name="TgtF_productName" Type="Str">Crosstalk Sweep UI</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A9A3FFF3-28A4-4EE1-BD28-658CF27951BF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Single Tone Power Sweep UI.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Crosstalk Sweep UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
