@@ -15,3 +15,7 @@ In the Output Configuration section, enter the details for your digital communic
 ![Efficiency Measurement Settings](meas-images/efficiency-meas-settings.png)
 
 When using the SMU method, the sense resistor is not needed and that value from software is ignored. When using the DMM method, the power supply voltage is the voltage of the programmed power supply. This voltage is not measured but is used to determine the input power to the DUT.
+
+#### Tips
+
+- Check out [Graph features](../measurements/common/graph-features.md) for built-in functions of the graphs.

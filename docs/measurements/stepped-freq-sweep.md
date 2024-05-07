@@ -16,3 +16,4 @@ Configure your acquisition and analysis settings in the **Measurements** tab. Yo
 #### Tips
 
 - Use the *View* button to see different results in the sweep graph.
+- Check out [Graph features](../measurements/common/graph-features.md) for built-in functions of the graphs.

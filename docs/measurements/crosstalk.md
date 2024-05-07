@@ -17,3 +17,4 @@ In the Output Configuration section, enter the details for your digital communic
 
 - You can select multiple victim channels to measure crosstalk at once. Refer to [Selecting Multiple Channels](common/select-multiple-daqmx-channels.md) for details.
 - You can select which channels to view in the graph by pressing the *View* button.  ![Crosstalk View Button](meas-images/crosstalk-channel-view-button.png)
+- Check out [Graph features](../measurements/common/graph-features.md) for built-in functions of the graphs.

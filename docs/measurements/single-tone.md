@@ -16,3 +16,4 @@ Configure your acquisition and analysis settings in the **Measurements** tab. Yo
 #### Tips
 
 - You can analyze multiple channels at the same time by adding them to the *Acquisition channel* control. Refer to [Selecting Multiple Channels](common/select-multiple-daqmx-channels.md) for details.  ![Multi-channel](meas-images/single-tone-multiple-channel.png)
+- Check out [Graph features](../measurements/common/graph-features.md) for built-in functions of the graphs.
