@@ -1,6 +1,6 @@
 # Crosstalk
 
-This service measures the crosstalk from one interferrer channel to one or more victim channels. 
+This service measures the crosstalk from one interferrer channel to one or more victim channels.
 
 ## Digital Audio
 
