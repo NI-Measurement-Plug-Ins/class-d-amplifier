@@ -552,7 +552,6 @@
 			<Item Name="Convert Digital Output Level Units.vi" Type="VI" URL="../../shared/Convert Digital Output Level Units.vi"/>
 			<Item Name="Single Tone Audio Measurements (N Ch).vi" Type="VI" URL="../../shared/Single Tone Audio Measurements (N Ch).vi"/>
 			<Item Name="Single Tone Results to Cluster of Arrays.vi" Type="VI" URL="../../shared/Single Tone Results to Cluster of Arrays.vi"/>
-			<Item Name="Array to Spectrum (N Ch).vi" Type="VI" URL="../../shared/Array to Spectrum (N Ch).vi"/>
 			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
 			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
 			<Item Name="weighting filter.ctl" Type="VI" URL="../../shared/controls/weighting filter.ctl"/>
@@ -562,6 +561,7 @@
 			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
 			<Item Name="Calculate Ouput Level for Digital Audio.vi" Type="VI" URL="../../shared/Calculate Ouput Level for Digital Audio.vi"/>
 			<Item Name="Digital Serial.lvclass" Type="LVClass" URL="../../shared/digital serial api/Digital Serial.lvclass"/>
+			<Item Name="Array to Spectra (N Ch).vi" Type="VI" URL="../../shared/Array to Spectra (N Ch).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Tone_Class D Amplifier" Type="EXE">
@@ -580,7 +580,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C44F4A25-F5A9-49F2-8252-5E3F58670682}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Tone_Class D Amplifier.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/Single Tone_Class D Amplifier/Single Tone_Class D Amplifier.exe</Property>
@@ -644,7 +644,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7E33245-0DAE-445D-BB77-FD7DF2524D5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Tone_Class D Amplifier_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Single Tone_Class D Amplifier/BuiltUI/Single Tone_Class D Amplifier_UI.lvlibp</Property>
