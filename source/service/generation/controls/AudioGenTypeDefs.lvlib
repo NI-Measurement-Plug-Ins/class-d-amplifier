@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="analog generation settings.ctl" Type="VI" URL="../analog generation settings.ctl"/>
+	<Item Name="analog input settings.ctl" Type="VI" URL="../analog input settings.ctl"/>
 	<Item Name="analog output settings.ctl" Type="VI" URL="../analog output settings.ctl"/>
 	<Item Name="Convert Dual Tone Prop from String.vi" Type="VI" URL="../Convert Dual Tone Prop from String.vi"/>
 	<Item Name="Convert Dual Tone Prop to String.vi" Type="VI" URL="../Convert Dual Tone Prop to String.vi"/>
