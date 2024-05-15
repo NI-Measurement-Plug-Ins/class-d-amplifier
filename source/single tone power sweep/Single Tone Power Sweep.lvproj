@@ -13,7 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Single Tone Power Sweep_UI.lvlib" Type="Library" URL="../Single Tone Power Sweep UI/Single Tone Power Sweep_UI.lvlib"/>
 		<Item Name="Single Tone Power Sweep.lvlib" Type="Library" URL="../Single Tone Power Sweep/Single Tone Power Sweep.lvlib"/>
-		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -570,7 +569,6 @@
 			<Item Name="UI Helpers.lvlib" Type="Library" URL="../../shared/ui/UI Helpers.lvlib"/>
 			<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
 			<Item Name="Audio Popup UI.lvlib" Type="Library" URL="../../shared/audio popup ui/Audio Popup UI.lvlib"/>
-			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
 			<Item Name="AudioGenTypeDefs.lvlib" Type="Library" URL="../../service/generation/controls/AudioGenTypeDefs.lvlib"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -604,6 +602,12 @@
 			<Item Name="Array to XY (N Ch).vi" Type="VI" URL="../../shared/Array to XY (N Ch).vi"/>
 			<Item Name="Array to Wfm (N Ch).vi" Type="VI" URL="../../shared/Array to Wfm (N Ch).vi"/>
 			<Item Name="Array to Spectra (N Ch).vi" Type="VI" URL="../../shared/Array to Spectra (N Ch).vi"/>
+			<Item Name="Analog Input Settings.lvlib" Type="Library" URL="../../shared/analog input settings/Analog Input Settings.lvlib"/>
+			<Item Name="digital serial input settings.ctl" Type="VI" URL="../../shared/controls/digital serial input settings.ctl"/>
+			<Item Name="master clock source.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/master clock source.ctl"/>
+			<Item Name="Digital Serial Input Settings.lvlib" Type="Library" URL="../../shared/digital serial input settings/Digital Serial Input Settings.lvlib"/>
+			<Item Name="digital serial gen settings.ctl" Type="VI" URL="../../shared/controls/digital serial gen settings.ctl"/>
+			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/digital serial gen settings/digital audio protocol controls.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Tone Power Sweep" Type="EXE">
