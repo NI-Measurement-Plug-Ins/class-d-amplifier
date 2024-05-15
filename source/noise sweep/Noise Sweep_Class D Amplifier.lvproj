@@ -13,8 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Noise Sweep_Class D Amplifier_UI.lvlib" Type="Library" URL="../Noise Sweep_Class D Amplifier UI/Noise Sweep_Class D Amplifier_UI.lvlib"/>
 		<Item Name="Noise Sweep_Class D Amplifier.lvlib" Type="Library" URL="../Noise Sweep_Class D Amplifier/Noise Sweep_Class D Amplifier.lvlib"/>
-		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
-		<Item Name="Digital Serial.lvclass" Type="LVClass" URL="../../shared/digital serial api/Digital Serial.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -408,7 +406,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
-			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Build Array.vi" Type="VI" URL="../../shared/Build Array.vi"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
@@ -427,6 +424,13 @@
 			<Item Name="audio filter settings.ctl" Type="VI" URL="../../shared/controls/audio filter settings.ctl"/>
 			<Item Name="Audio Filtering (Time Domain).vi" Type="VI" URL="../../shared/Audio Filtering (Time Domain).vi"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="Analog Input Settings.lvlib" Type="Library" URL="../../shared/analog input settings/Analog Input Settings.lvlib"/>
+			<Item Name="digital serial input settings.ctl" Type="VI" URL="../../shared/controls/digital serial input settings.ctl"/>
+			<Item Name="master clock source.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/master clock source.ctl"/>
+			<Item Name="Digital Serial Input Settings.lvlib" Type="Library" URL="../../shared/digital serial input settings/Digital Serial Input Settings.lvlib"/>
+			<Item Name="digital serial gen settings.ctl" Type="VI" URL="../../shared/controls/digital serial gen settings.ctl"/>
+			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/digital serial gen settings/digital audio protocol controls.lvlib"/>
+			<Item Name="Digital Serial.lvclass" Type="LVClass" URL="../../shared/digital serial api/Digital Serial.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Noise Sweep_Class D Amplifier" Type="EXE">

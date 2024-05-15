@@ -13,10 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Generation_Class D Amplifier_UI.lvlib" Type="Library" URL="../Generation_Class D Amplifier UI/Generation_Class D Amplifier_UI.lvlib"/>
 		<Item Name="Generation_Class D Amplifier.lvlib" Type="Library" URL="../Generation_Class D Amplifier/Generation_Class D Amplifier.lvlib"/>
-		<Item Name="Measurement Service Helpers.lvlib" Type="Library" URL="../Measurement Service Helpers/Measurement Service Helpers.lvlib"/>
-		<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
-		<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/controls/digital audio protocol/digital audio protocol controls.lvlib"/>
-		<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -140,6 +136,14 @@
 			</Item>
 			<Item Name="generation type.ctl" Type="VI" URL="../../shared/controls/generation type.ctl"/>
 			<Item Name="Determine Generation Type from File.vi" Type="VI" URL="../../shared/Determine Generation Type from File.vi"/>
+			<Item Name="Analog Input Settings.lvlib" Type="Library" URL="../../shared/analog input settings/Analog Input Settings.lvlib"/>
+			<Item Name="digital serial input settings.ctl" Type="VI" URL="../../shared/controls/digital serial input settings.ctl"/>
+			<Item Name="master clock source.ctl" Type="VI" URL="../../shared/controls/digital audio protocol/master clock source.ctl"/>
+			<Item Name="Digital Serial Input Settings.lvlib" Type="Library" URL="../../shared/digital serial input settings/Digital Serial Input Settings.lvlib"/>
+			<Item Name="digital serial gen settings.ctl" Type="VI" URL="../../shared/controls/digital serial gen settings.ctl"/>
+			<Item Name="digital audio protocol controls.lvlib" Type="Library" URL="../../shared/digital serial gen settings/digital audio protocol controls.lvlib"/>
+			<Item Name="audio controls.lvlib" Type="Library" URL="../../shared/controls/audio controls.lvlib"/>
+			<Item Name="Analog Gen Settings.lvlib" Type="Library" URL="../../shared/analog gen settings/Analog Gen Settings.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Generation_Class D Amplifier" Type="EXE">
