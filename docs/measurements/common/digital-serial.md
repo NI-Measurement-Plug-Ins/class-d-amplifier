@@ -28,8 +28,6 @@ The following documents show the channel mapping:
 
 ## Digital Serial Parameters
 
-Not sure how to set some of these digital serial parameters.
-
 ![Digital Serial Parameters](../meas-images/digital-serial-parameters.png)
 
 Refer to this document for some typical configurations and timing diagrams.
