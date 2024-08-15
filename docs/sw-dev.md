@@ -1,6 +1,6 @@
 # Setup a Development Environment
 
-If you want to commit changes to the repo, we recommend you use the current versions of application software unless a newer version enables new features. Software should work with newer versions of these dependencies.
+If you want to commit changes to the repo, we recommend you use the current versions of application software unless a newer version enables new features. Software should work with newer versions of these dependencies. Use NI Package Manager to install software unless other instructions or links are provided.
 
 Software dependencies:
 
