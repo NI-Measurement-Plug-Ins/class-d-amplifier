@@ -49,8 +49,7 @@ Install from NI Package Manager:
 - NI RIO (2024 Q1 or greater)
 - NI DAQmx (2024 Q1 or greater)
 - NI DCPower (if using NI SMU to power device)
-- InstrumentStudio (2024 Q1 or greater)
-- MeasurementLink (2024 Q1 or greater)
+- InstrumentStudio (2024 Q3 or greater)
 
 Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
 
