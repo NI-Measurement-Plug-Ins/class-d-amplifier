@@ -2742,8 +2742,8 @@
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i402">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-classdamplifier_1.0.0.25_windows_x64.nipkg</FileName>
-                <Version>1.0.0.25</Version>
+                <FileName>community-classdamplifier_1.0.0.26_windows_x64.nipkg</FileName>
+                <Version>1.0.0.26</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes>
@@ -2770,7 +2770,7 @@
             </CustomExecutes>
             <Description>Measurements for Class D amplifiers using MeasurementLink</Description>
             <DisplayName>Class D Amplifier MeasurementLink Plug-In</DisplayName>
-            <FileName>community-classdamplifier_1.0.0.26_windows_x64.nipkg</FileName>
+            <FileName>community-classdamplifier_1.1.0.0_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/class-d-amplifier</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
@@ -2790,7 +2790,7 @@
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-classdamplifier</Synopsis>
-            <Version>1.0.0.26</Version>
+            <Version>1.1.0.0</Version>
         </Distribution>
     </Distributions>
     <Feeds />
@@ -2811,7 +2811,7 @@
                 <Description i:nil="true" />
                 <Name>TestStand Options</Name>
             </Definition>
-            <HasDefaultValues>true</HasDefaultValues>
+            <HasDefaultValues>false</HasDefaultValues>
             <Value z:Id="i409" i:type="DialogConfigurationOptionValue">
                 <Values>
                     <ConfigurationOptionValue z:Id="i410" i:type="BooleanConfigurationOptionValue" />
@@ -2850,10 +2850,10 @@
                         <Value />
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i429" i:type="StringConfigurationOptionValue">
-                        <Value />
+                        <Value>Class D Amplifier MeasurementLink Plug-In</Value>
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i430" i:type="StringConfigurationOptionValue">
-                        <Value />
+                        <Value>Class D Amplifier MeasurementLink Plug-In</Value>
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i431" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i432" i:type="BooleanConfigurationOptionValue" />
