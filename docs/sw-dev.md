@@ -4,20 +4,20 @@ If you want to commit changes to the repo, we recommend you use the current vers
 
 Software dependencies:
 
-- LabVIEW 64-bit 2021 SP1
-- Sound and Vibration Toolkit 2021
-- Digital Audio Acquisition and Generation Toolkit 2023 Q3
-- [Measurement Plug-In SDK for LabVIEW](https://github.com/ni/measurement-plugin-labview?tab=readme-ov-file#installation)
-- NI DAQmx
-- NI DCPower
-- NI RIO
-- NI Simple Message (STM) Library (*from VI Package Manager*)
-- NI PointValueMap (*from VI Package Manager*)
-- NI Qbus (*from VI Package Manager*)
-- NI Event Logger Library (*from VI Package Manager*)
-- NI LogRotate (*from VI Package Manager*)
+- LabVIEW 2022 Q3 64-bit
+- InstrumentStudio 2024 Q4
+- Sound and Vibration Toolkit 2023 Q3
+- Digital Audio Acquisition and Generation Toolkit 2023 Q3 
+- NI DAQmx (latest)
+- NI DCPower (latest)
+- NI RIO (latest)
+- [Measurement Plug-In SDK for LabVIEW v3.1.0.6](https://github.com/ni/measurement-plugin-labview/releases)
+- [NI Simple Message (STM) Library](https://www.vipm.io/package/ni_lib_stm/) (*from VI Package Manager*)
+- [NI PointValueMap](https://www.vipm.io/package/national_instruments_lib_ni_pointvaluemap/) (*from VI Package Manager*)
+- [NI Qbus](https://www.vipm.io/package/national_instruments_lib_ni_qbus/) (*from VI Package Manager*)
+- [NI Event Logger Library](https://www.vipm.io/package/ni_lib_ell/) (*from VI Package Manager*)
+- [NI LogRotate](https://www.vipm.io/package/ni_lib_logrotate/) (*from VI Package Manager*)
 
 Tested with:
 
-- InstrumentStudio 2024 Q3
-- TestStand 2022 Q4
+- TestStand 2024 Q4
