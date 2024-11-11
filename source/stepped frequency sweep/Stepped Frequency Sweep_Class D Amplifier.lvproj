@@ -599,7 +599,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C44F4A25-F5A9-49F2-8252-5E3F58670682}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Stepped Sweep_Class D Amplifier.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/NI_AB_PROJECTNAME/Stepped Sweep_Class D Amplifier.exe</Property>
@@ -610,38 +610,38 @@
 				<Property Name="Destination[1].path" Type="Path">/C/dev/class-d-amplifier/builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{00EEA407-555A-4F73-B5E1-E6B4DA5F6FDE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A3A951DD-CAD3-483F-B286-D4C76BD65BD7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Get Measurement Details.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Measurement Results.ctl</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Run Service.vi</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[6].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Run Service.vi</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[7].properties[0].value" Type="Str">Minimized</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Stepped Frequency Sweep_Class D Amplifier.lvlib/Get Service Descriptor.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
@@ -663,7 +663,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{44246515-ED21-47B7-9DB4-59461139AFAB}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Stepped Frequency Sweep UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Stepped Sweep_Class D Amplifier/BuildUI/Stepped Frequency Sweep UI.lvlibp</Property>
