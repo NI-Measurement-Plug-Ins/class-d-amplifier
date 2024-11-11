@@ -582,7 +582,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C44F4A25-F5A9-49F2-8252-5E3F58670682}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Tone_Class D Amplifier.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/Single Tone_Class D Amplifier/Single Tone_Class D Amplifier.exe</Property>
@@ -593,38 +593,38 @@
 				<Property Name="Destination[1].path" Type="Path">/C/dev/class-d-amplifier/builds/Single Tone_Class D Amplifier/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0246D1F2-D342-4B4A-9E7F-06FCABE25EC4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{37C790D5-D539-4B6A-83CD-6D3BE029E209}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Measurement Results.ctl</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Run Service.vi</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[6].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Run Service.vi</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[7].properties[0].value" Type="Str">Minimized</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Single Tone_Class D Amplifier.lvlib/Get Service Descriptor.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
@@ -646,7 +646,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7E33245-0DAE-445D-BB77-FD7DF2524D5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">54</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Single Tone_Class D Amplifier_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Single Tone_Class D Amplifier/BuiltUI/Single Tone_Class D Amplifier_UI.lvlibp</Property>
