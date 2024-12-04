@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="12A934A6033A183D10E39B971EA28FB4" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.2.62005" FeatureSetName="Digital Pattern Editor" Name="http://www.ni.com/PatternBasedDigital" OldestCompatibleVersion="4.5.0.0" Version="5.3.1.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.2.62005" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.3.2.62005" Name="Digital Pattern Editor" Version="21.8.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="3" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<FileReference Id="126" ModelDefinitionType="PinMap" Name="PinMap\.pinmap" StoragePath="Pin Maps\PinMap.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<EmbeddedDefinitionReference Id="163" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}CaptureResultsDefinition" Name="CaptureResults">
+				<CaptureResultsDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="165" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}BurstResultsDefinition" Name="BurstResults">
+				<BurstResultsDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="168" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}DigitalScopeDefinition" Name="DigitalScope">
+				<DigitalScopeDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+			</EmbeddedDefinitionReference>
+			<FileReference Id="175" ModelDefinitionType="TimingDefinition" Name="I2C_Timeset\.digitiming" StoragePath="Digital\Timing\I2C_Timeset.digitiming" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Id="183" ModelDefinitionType="SpecificationsDefinition" Name="Specifications\.specs" StoragePath="Specifications\Specifications.specs" />
+			<FileReference Id="186" ModelDefinitionType="PinLevelsDefinition" Name="PinLevels\.digilevels" StoragePath="Digital\Levels\PinLevels.digilevels" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Id="198" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI3wire_Read_Pol0\.digipat" StoragePath="Digital\Compiled Patterns\SPI 3 Wire\SPI3wire_Read_Pol0.digipat" />
+			<FileReference Id="199" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI3wire_Write_Pol1\.digipat" StoragePath="Digital\Compiled Patterns\SPI 3 Wire\SPI3wire_Write_Pol1.digipat" />
+			<FileReference Id="200" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI3wire_Write_Pol0\.digipat" StoragePath="Digital\Compiled Patterns\SPI 3 Wire\SPI3wire_Write_Pol0.digipat" />
+			<FileReference Id="201" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI3wire_Read_Pol1\.digipat" StoragePath="Digital\Compiled Patterns\SPI 3 Wire\SPI3wire_Read_Pol1.digipat" />
+			<FileReference Id="202" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI4wire_Read_Pol0\.digipat" StoragePath="Digital\Compiled Patterns\SPI 4 Wire\SPI4wire_Read_Pol0.digipat" />
+			<FileReference Id="203" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI4wire_Write_Pol0\.digipat" StoragePath="Digital\Compiled Patterns\SPI 4 Wire\SPI4wire_Write_Pol0.digipat" />
+			<FileReference Id="204" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI4wire_Write_Pol1\.digipat" StoragePath="Digital\Compiled Patterns\SPI 4 Wire\SPI4wire_Write_Pol1.digipat" />
+			<FileReference Id="205" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SPI4wire_Read_Pol1\.digipat" StoragePath="Digital\Compiled Patterns\SPI 4 Wire\SPI4wire_Read_Pol1.digipat" />
+			<FileReference Id="210" ModelDefinitionType="TimingDefinition" Name="SPI4wire_Timeset_Pol0Phase0\.digitiming" StoragePath="Digital\Timing\SPI4wire Timesets\SPI4wire_Timeset_Pol0Phase0.digitiming" />
+			<FileReference Id="211" ModelDefinitionType="TimingDefinition" Name="SPI4wire_Timeset_Pol1Phase0\.digitiming" StoragePath="Digital\Timing\SPI4wire Timesets\SPI4wire_Timeset_Pol1Phase0.digitiming" />
+			<FileReference Id="212" ModelDefinitionType="TimingDefinition" Name="SPI4wire_Timeset_Pol0Phase1\.digitiming" StoragePath="Digital\Timing\SPI4wire Timesets\SPI4wire_Timeset_Pol0Phase1.digitiming" />
+			<FileReference Id="213" ModelDefinitionType="TimingDefinition" Name="SPI4wire_Timeset_Pol1Phase1\.digitiming" StoragePath="Digital\Timing\SPI4wire Timesets\SPI4wire_Timeset_Pol1Phase1.digitiming" />
+			<FileReference Id="225" ModelDefinitionType="TimingDefinition" Name="SPI3wire_Timeset_Pol0Phase0\.digitiming" StoragePath="Digital\Timing\SPI3wire Timesets\SPI3wire_Timeset_Pol0Phase0.digitiming" />
+			<FileReference Id="226" ModelDefinitionType="TimingDefinition" Name="SPI3wire_Timeset_Pol0Phase1\.digitiming" StoragePath="Digital\Timing\SPI3wire Timesets\SPI3wire_Timeset_Pol0Phase1.digitiming" />
+			<FileReference Id="227" ModelDefinitionType="TimingDefinition" Name="SPI3wire_Timeset_Pol1Phase0\.digitiming" StoragePath="Digital\Timing\SPI3wire Timesets\SPI3wire_Timeset_Pol1Phase0.digitiming" />
+			<FileReference Id="228" ModelDefinitionType="TimingDefinition" Name="SPI3wire_Timeset_Pol1Phase1\.digitiming" StoragePath="Digital\Timing\SPI3wire Timesets\SPI3wire_Timeset_Pol1Phase1.digitiming" />
+			<FileReference Id="232" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I2C_Read_7bitSlaveAddress\.digipat" StoragePath="Digital\Compiled Patterns\I2C\I2C_Read_7bitSlaveAddress.digipat" />
+			<FileReference Id="233" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I2C_Write_7bitSlaveAddress\.digipat" StoragePath="Digital\Compiled Patterns\I2C\I2C_Write_7bitSlaveAddress.digipat" />
+			<FileReference Id="234" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I2C_Read_10bitSlaveAddress\.digipat" StoragePath="Digital\Compiled Patterns\I2C\I2C_Read_10bitSlaveAddress.digipat" />
+			<FileReference Id="235" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I2C_Write_10bitSlaveAddress\.digipat" StoragePath="Digital\Compiled Patterns\I2C\I2C_Write_10bitSlaveAddress.digipat" />
+			<FileReference Id="238" ModelDefinitionType="CaptureWaveformDefinition" Name="SDC_Capture\.digicapture" StoragePath="Digital\Capture Waveforms\SDC_Capture.digicapture" />
+			<FileReference Id="239" ModelDefinitionType="SourceWaveformDefinition" Name="SDC_Source\.tdms" StoragePath="Digital\Source Waveforms\SDC_Source.tdms" />
+			<FileReference Id="251" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_Legacy_I2C_Read\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_Legacy_I2C_Read.digipat" />
+			<FileReference Id="252" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_ENTDAA\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_ENTDAA.digipat" />
+			<FileReference Id="253" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_Legacy_I2C_Write\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_Legacy_I2C_Write.digipat" />
+			<FileReference Id="254" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_SDR_Broadcast_CCC_Write\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_SDR_Broadcast_CCC_Write.digipat" />
+			<FileReference Id="255" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_SDR_Read\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_SDR_Read.digipat" />
+			<FileReference Id="256" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_SDR_Direct_CCC_Read\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_SDR_Direct_CCC_Read.digipat" />
+			<FileReference Id="257" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_SDR_Direct_CCC_Write\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_SDR_Direct_CCC_Write.digipat" />
+			<FileReference Id="258" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="I3C_SDR_Write\.digipat" StoragePath="Digital\Compiled Patterns\I3C\I3C_SDR_Write.digipat" />
+			<FileReference Id="261" ModelDefinitionType="TimingDefinition" Name="I3C\ Timeset\.digitiming" StoragePath="Digital\Timing\I3C Timeset.digitiming" />
+			<FileReference Id="264" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="RFFE_Write\.digipat" StoragePath="Digital\Compiled Patterns\RFFE\RFFE_Write.digipat" />
+			<FileReference Id="265" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="RFFE_Read\.digipat" StoragePath="Digital\Compiled Patterns\RFFE\RFFE_Read.digipat" />
+			<FileReference Id="266" ModelDefinitionType="TimingDefinition" Name="RFFE_Timing\.digitiming" StoragePath="Digital\Timing\RFFE_Timing.digitiming" />
+		</NameScopingEnvoy>
+		<EmbeddedDefinitionReference Id="9" ModelDefinitionType="DigitalPatternEditor.ProjectPropertiesDefinition" Name="ProjectProperties">
+			<ProjectPropertiesDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+		</EmbeddedDefinitionReference>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

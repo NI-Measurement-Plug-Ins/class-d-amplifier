@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="one_tick">
+        <Period>10 ns</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>10 ns</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>10 ns</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="one_clock_od">
+        <Period>I3C.tPeriod_OD</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <SurroundByComplement>
+              <On>0</On>
+              <Data>I3C.tLOW_OD</Data>
+              <Return>I3C.tPeriod_OD</Return>
+              <Off>I3C.tPeriod_OD</Off>
+            </SurroundByComplement>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For Clock Line during open drain</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I3C.tLOW_OD-I3C.tSU_OD</Data>
+              <Off>I3C.tPeriod_OD</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I3C.tLOW_OD</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For Data Line during open drain</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="start">
+        <Period>I3C.tCAS</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tCAS</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For Start Bit</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="stop">
+        <Period>I3C.tCBP</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tCBP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For stop bit</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I3C.tCBP</Data>
+              <Off>I3C.tCBP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For stop bit</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="one_clock_pp">
+        <Period>I3C.tPeriod_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <SurroundByComplement>
+              <On>0</On>
+              <Data>I3C.tLOW_PP</Data>
+              <Return>I3C.tPeriod_PP</Return>
+              <Off>I3C.tPeriod_PP</Off>
+            </SurroundByComplement>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For Clock Line during push pull</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I3C.tLOW_PP-I3C.tSU_PP</Data>
+              <Off>I3C.tPeriod_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I3C.tLOW_PP</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For Data Line during push pull</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="repeated_start">
+        <Period>I3C.tCASr+I3C.tCBSr</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I3C.tCBSr</Data>
+              <Off>I3C.tCASr+I3C.tCBSr</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For Repeated Start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="tlow_pp">
+        <Period>I3C.tLOW_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tLOW_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I3C.tLOW_PP-I3C.tSU_PP</Data>
+              <Off>I3C.tLOW_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="thigh_pp">
+        <Period>I3C.tHIGH_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tHIGH_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tHIGH_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="read_ack_low">
+        <Period>I3C.tLOW_OD</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tLOW_OD</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I3C.tLOW_OD-5 ns</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Compare strobe must not be placed at Drive On/Drive Off of the timeset</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="read_ack_high">
+        <Period>I3C.tHIGH_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tHIGH_OD</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="t_bit_low">
+        <Period>I3C.tLOW_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tLOW_OD</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="t_bit_high">
+        <Period>I3C.tHIGH_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I3C.tHIGH_OD</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_clock">
+        <Period>I2C.tPeriod</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <SurroundByComplement>
+              <On>0</On>
+              <Data>I2C.tLOW</Data>
+              <Return>I2C.tPeriod</Return>
+              <Off>I2C.tPeriod</Off>
+            </SurroundByComplement>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_For Clock Line</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tLOW-I2C.tSU_DAT</Data>
+              <Off>I2C.tPeriod</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I2C.tLOW+(I2C.tHIGH/2)</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2C_For Data Line</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_start">
+        <Period>I2C.tHD_STA</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tHD_STA+I2C.tSU_STA</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_stop">
+        <Period>I2C.tSU_STO+I2C.tBUF</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tSU_STO+I2C.tBUF</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_stop</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tSU_STO</Data>
+              <Off>I2C.tSU_STO+I2C.tBUF</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_stop</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_low">
+        <Period>I2C.tLOW</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tLOW</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tLOW-I2C.tSU_DAT</Data>
+              <Off>I2C.tLOW</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="one_clock_ddr">
+        <Period>I3C.tPeriod_PP</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I3C" edgeMultiplier="2x">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Data2>I3C.tLOW_PP</Data2>
+              <Off>I3C.tPeriod_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+              <Strobe2>I3C.tLOW_PP</Strobe2>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="SDA_I3C" edgeMultiplier="2x">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I3C.tLOW_PP-I3C.tSU_PP</Data>
+              <Data2>I3C.tLOW_PP+I3C.tHIGH_PP-I3C.tSU_PP</Data2>
+              <Off>I3C.tPeriod_PP</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I3C.tLOW_PP</Strobe>
+              <Strobe2>I3C.tLOW_PP+I3C.tHIGH_PP-5 ns</Strobe2>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_repeated_start">
+        <Period>I2C.tHD_STA+I2C.tSU_STA</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I3C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tSU_STA</Data>
+              <Off>I2C.tHD_STA+I2C.tSU_STA</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>

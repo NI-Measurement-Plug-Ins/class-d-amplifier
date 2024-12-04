@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <file>
+    <name>TAS6424.solireg</name>
+    <source />
+    <version />
+    <description />
+  </file>
+  <registerMap>
+    <name>TAS6424</name>
+    <displayName>TAS6424</displayName>
+    <developer />
+    <contact />
+    <ipBlockList>
+      <ipBlock>
+        <deviceName>TAS6424</deviceName>
+        <ipBlockOffsetAddress>0x00</ipBlockOffsetAddress>
+        <description />
+        <deviceType />
+        <revision Value="" />
+        <releaseDate />
+        <regGroupList>
+          <groupName>Control</groupName>
+          <groupName>Faults</groupName>
+        </regGroupList>
+      </ipBlock>
+    </ipBlockList>
+    <registerGroupList>
+      <registerGroup>
+        <groupName>Control</groupName>
+        <groupOffsetAddress>0x00</groupOffsetAddress>
+        <description />
+        <registerList>
+          <register>
+            <regName>MODE_CONTROL</regName>
+            <address>0x00</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>MISC_CONTROL_1</regName>
+            <address>0x01</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>MISC_CONTROL_2</regName>
+            <address>0x02</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>SAP_CONTROL</regName>
+            <address>0x03</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>CHAN_STATE_CONTROL</regName>
+            <address>0x04</address>
+            <description />
+            <default>0x1</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>CHAN_1_VOLUME</regName>
+            <address>0x05</address>
+            <description />
+            <default>0xCF</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>CHAN_2_VOLUME</regName>
+            <address>0x06</address>
+            <description />
+            <default>0xCF</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>CHAN_3_VOLUME</regName>
+            <address>0x07</address>
+            <description />
+            <default>0xCF</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>CHAN_4_VOLUME</regName>
+            <address>0x08</address>
+            <description />
+            <default>0xCF</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+        </registerList>
+        <fieldList>
+          <field>
+            <fieldName>RESET</fieldName>
+            <description>Resets the device</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>7</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Normal operation</def>
+              <def>Reset the device</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>RESERVED_0</fieldName>
+            <description>Reserved</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>6</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>PBTL_CH34</fieldName>
+            <description>PBTL mode for channels 3 and 4</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>BTL mode</def>
+              <def>PBTL mode</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>PBTL_CH12</fieldName>
+            <description>PBTL mode for channels 1 and 2</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>BTL mode</def>
+              <def>PBTL mode</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH1_LO_MODE</fieldName>
+            <description>Line output mode for channel 1</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Normal/speaker mode</def>
+              <def>Line output mode</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH2_LO_MODE</fieldName>
+            <description>Line output mode for channel 2</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Normal/speaker mode</def>
+              <def>Line output mode</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH3_LO_MODE</fieldName>
+            <description>Line output mode for channel 3</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>1</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Normal/speaker mode</def>
+              <def>Line output mode</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH4_LO_MODE</fieldName>
+            <description>Line output mode for channel 4</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MODE_CONTROL</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Normal/speaker mode</def>
+              <def>Line output mode</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>HPF_BYPASS</fieldName>
+            <description>High pass filter enable</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_1</regName>
+                <regStartBit>7</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Enabled</def>
+              <def>Disabled</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OTW_CONTROL</fieldName>
+            <description>Overtemperature warning control</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_1</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>140 C</def>
+              <def>130 C</def>
+              <def>120 C</def>
+              <def>110 C</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OC_CONTROL</fieldName>
+            <description>Overcurrent control</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_1</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Level 1</def>
+              <def>Level 2</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>VOLUME_RATE</fieldName>
+            <description>Volume update rate</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_1</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>1 step / FSYNC</def>
+              <def>1 step / 2 FSYNCs</def>
+              <def>1step / 4 FSYNCs</def>
+              <def>1 step / 8 FSYNCs</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>GAIN</fieldName>
+            <description>Gain level</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_1</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Level 1 = 7.6-V pk</def>
+              <def>Level 2 = 15-V pk</def>
+              <def>Level 3 = 21-V pk</def>
+              <def>Level 4 = 29-V pk</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>RESERVED_1</fieldName>
+            <description>Reserved</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_2</regName>
+                <regStartBit>7</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>PWM_FREQ</fieldName>
+            <description>PWM frequency</description>
+            <length>3</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_2</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>3</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <value>4</value>
+              <value>5</value>
+              <value>6</value>
+              <value>7</value>
+              <def>8 x fs</def>
+              <def>10 x fs</def>
+              <def>Reserved</def>
+              <def>Reserved</def>
+              <def>Reserved</def>
+              <def>38 x fs</def>
+              <def>44 x fx</def>
+              <def>48 x fs</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>RESERVED_2</fieldName>
+            <description>Reserved</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_2</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>SDM_OSR</fieldName>
+            <description>Oversampling rate</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_2</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>64x OSR</def>
+              <def>128x OSR</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OUTPUT_PHASE</fieldName>
+            <description>Output phase switching offset</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>MISC_CONTROL_2</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>0 deg offset</def>
+              <def>30 deg offset</def>
+              <def>45 deg offset</def>
+              <def>60 deg offset</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>INPUT_SAMPLING_RATE</fieldName>
+            <description>Input sampling rate</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>SAP_CONTROL</regName>
+                <regStartBit>6</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>44.1 kHz</def>
+              <def>48 kHz</def>
+              <def>96 kHz</def>
+              <def> Reserved</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>8CH_TDM_SLOT_SELECT</fieldName>
+            <description>8 channel TDM slot selection</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>SAP_CONTROL</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>First four TDM slots</def>
+              <def>Last four TDM slots</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>TDM_SLOT_SIZE</fieldName>
+            <description>TDM slot size</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>SAP_CONTROL</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>24-bit or 32-bit</def>
+              <def>16-bit</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>TDM_SLOT_SELECT_2</fieldName>
+            <description>TDM slot select 2</description>
+            <length>1</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>SAP_CONTROL</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>Normal</def>
+              <def>Swap channel 1/2 with channel 3/4</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>INPUT_FORMAT</fieldName>
+            <description>Input format</description>
+            <length>3</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>SAP_CONTROL</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>3</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <value>4</value>
+              <value>5</value>
+              <value>6</value>
+              <value>7</value>
+              <def>24-bit right justified</def>
+              <def>20-bit right justified</def>
+              <def>18-bit right justified</def>
+              <def>16-bit right justified</def>
+              <def>I2S (16-bit or 24-bit)</def>
+              <def>Left justified (16-bit or 24-bit)</def>
+              <def>TDM mode (16-bit or 24-bit)</def>
+              <def>Reserved</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH1_STATE_CONTROL</fieldName>
+            <description>Channel 1 state</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_CONTROL</regName>
+                <regStartBit>6</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH2_STATE_CONTROL</fieldName>
+            <description>Channel 2 state</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_CONTROL</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH3_STATE_CONTROL</fieldName>
+            <description>Channel 3 state</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_CONTROL</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH4_STATE_CONTROL</fieldName>
+            <description>Channel 4 state</description>
+            <length>2</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_CONTROL</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH1_VOLUME</fieldName>
+            <description>Channel 1 volume</description>
+            <length>8</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_1_VOLUME</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>8</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>CH2_VOLUME</fieldName>
+            <description>Channel 2 volume</description>
+            <length>8</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_2_VOLUME</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>8</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>CH3_VOLUME</fieldName>
+            <description>Channel 3 volume</description>
+            <length>8</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_3_VOLUME</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>8</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>CH4_VOLUME</fieldName>
+            <description>Channel 4 volume</description>
+            <length>8</length>
+            <access>RW</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_4_VOLUME</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>8</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+        </fieldList>
+      </registerGroup>
+      <registerGroup>
+        <groupName>Faults</groupName>
+        <groupOffsetAddress>0x00</groupOffsetAddress>
+        <description />
+        <registerList>
+          <register>
+            <regName>CHAN_STATE_REPORT</regName>
+            <address>0x0F</address>
+            <description />
+            <default>0x1</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>CHAN_FAULTS</regName>
+            <address>0x10</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>GLOBAL_FAULTS_1</regName>
+            <address>0x11</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>GLOBAL_FAULTS_2</regName>
+            <address>0x12</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+          <register>
+            <regName>WARNINGS</regName>
+            <address>0x13</address>
+            <description />
+            <default>0x0</default>
+            <length>8</length>
+            <private>false</private>
+            <indirect>false</indirect>
+          </register>
+        </registerList>
+        <fieldList>
+          <field>
+            <fieldName>CH1_STATE</fieldName>
+            <description>Channel 1 state</description>
+            <length>2</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_REPORT</regName>
+                <regStartBit>6</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH2_STATE</fieldName>
+            <description>Channel 2 state</description>
+            <length>2</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_REPORT</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH3_STATE</fieldName>
+            <description>Channel 3 state</description>
+            <length>2</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_REPORT</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH4_STATE</fieldName>
+            <description>Channel 4 state</description>
+            <length>2</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_STATE_REPORT</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <value>2</value>
+              <value>3</value>
+              <def>Play</def>
+              <def>Hi-Z</def>
+              <def>Mute</def>
+              <def>DC load diagnostics</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH1_OC</fieldName>
+            <description>Channel 1 overcurrent</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>7</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>Overcurrent detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH2_OC</fieldName>
+            <description>Channel 2 overcurrent</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>6</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>Overcurrent detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH3_OC</fieldName>
+            <description>Channel 3 overcurrent</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>Overcurrent detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH4_OC</fieldName>
+            <description>Channel 4 overcurrent</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>Overcurrent detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH1_DC</fieldName>
+            <description>Channel 1 DC fault</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>DC fault detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH2_DC</fieldName>
+            <description>Channel 2 DC fault</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>DC fault detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH3_DC</fieldName>
+            <description>Channel 3 DC fault</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>1</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>DC fault detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH4_DC</fieldName>
+            <description>Channel 4 DC fault</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>CHAN_FAULTS</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>DC fault detected</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>RESERVED_3</fieldName>
+            <description>Reserved</description>
+            <length>3</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_1</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>3</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>INVALID_CLOCK</fieldName>
+            <description>Invalid clock</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_1</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>Clock fault</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>PVDD_OV</fieldName>
+            <description>PVDD overvoltage</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_1</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>PVDD OV fault</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>VBAT_OV</fieldName>
+            <description>VBAT overvoltage</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_1</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>VBAT OV fault</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>PVDD_UV</fieldName>
+            <description>PVDD undervoltage</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_1</regName>
+                <regStartBit>1</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>PVDD undervoltage fault</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>VBAT_UV</fieldName>
+            <description>VBAT undervoltage</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_1</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No fault</def>
+              <def>VBAT undervoltage fault</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>RESERVED_4</fieldName>
+            <description>Reserved</description>
+            <length>3</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_2</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>3</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>OTSD</fieldName>
+            <description>Global overtemperature shutdown</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_2</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No shutdown</def>
+              <def>Overtemperature</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH1_OTSD</fieldName>
+            <description>Channel 1 overtemperature shutdown</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_2</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No shutdown</def>
+              <def>Overtemperature</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH2_OTSD</fieldName>
+            <description>Channel 2 overtemperature shutdown</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_2</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No shutdown</def>
+              <def>Overtemperature</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH3_OTSD</fieldName>
+            <description>Channel 3 overtemperature shutdown</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_2</regName>
+                <regStartBit>1</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No shutdown</def>
+              <def>Overtemperature</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>CH4_OTSD</fieldName>
+            <description>Channel 4 overtemperature shutdown</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>GLOBAL_FAULTS_2</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No shutdown</def>
+              <def>Overtemperature</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>RESERVED_5</fieldName>
+            <description>Reserved</description>
+            <length>2</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>6</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>2</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="OneOnOne" />
+          </field>
+          <field>
+            <fieldName>VDD_POR</fieldName>
+            <description>VDD POR</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>5</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No VDD POR</def>
+              <def>VDD POR occurred</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OTW</fieldName>
+            <description>Global overtemperature warning</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>4</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No warning</def>
+              <def>Warning</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OTW_CH1</fieldName>
+            <description>Overtemperature warning for channel 1</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>3</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No warning</def>
+              <def>Warning</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OTW_CH2</fieldName>
+            <description>Overtemperature warning for channel 2</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>2</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No warning</def>
+              <def>Warning</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OTW_CH3</fieldName>
+            <description>Overtemperature warning for channel 3</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>1</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No warning</def>
+              <def>Warning</def>
+            </valueDefinition>
+          </field>
+          <field>
+            <fieldName>OTW_CH4</fieldName>
+            <description>Overtemperature warning for channel 4</description>
+            <length>1</length>
+            <access>R</access>
+            <parentRegisterList>
+              <parentRegister>
+                <regName>WARNINGS</regName>
+                <regStartBit>0</regStartBit>
+                <bitFieldOffset>0</bitFieldOffset>
+                <cropLength>1</cropLength>
+              </parentRegister>
+            </parentRegisterList>
+            <valueDefinition Type="String">
+              <value>0</value>
+              <value>1</value>
+              <def>No warning</def>
+              <def>Warning</def>
+            </valueDefinition>
+          </field>
+        </fieldList>
+      </registerGroup>
+    </registerGroupList>
+  </registerMap>
+</root>

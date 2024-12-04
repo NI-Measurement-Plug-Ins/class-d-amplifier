@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<PinMap schemaVersion="1.2" xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Instruments>
+		<NIDigitalPatternInstrument name="NI-657x" numberOfChannels="32" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="SCL_I2C" />
+		<DUTPin name="SDA_I2C" />
+		<DUTPin name="CS_SPI" />
+		<DUTPin name="SCLK_SPI" />
+		<DUTPin name="MOSI_SPI" />
+		<DUTPin name="MISO_SPI" />
+		<SystemPin name="VDD" />
+		<SystemPin name="VDDIO" />
+		<DUTPin name="SDA_I3C" />
+		<DUTPin name="SCL_I3C" />
+		<DUTPin name="RFFEVIO" />
+		<DUTPin name="RFFECLK" />
+		<DUTPin name="RFFEDATA" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="I2C">
+			<PinReference pin="SCL_I2C" />
+			<PinReference pin="SDA_I2C" />
+		</PinGroup>
+		<PinGroup name="SPI4wire">
+			<PinReference pin="CS_SPI" />
+			<PinReference pin="SCLK_SPI" />
+			<PinReference pin="MOSI_SPI" />
+			<PinReference pin="MISO_SPI" />
+		</PinGroup>
+		<PinGroup name="SPI3wire">
+			<PinReference pin="CS_SPI" />
+			<PinReference pin="SCLK_SPI" />
+			<PinReference pin="MOSI_SPI" />
+		</PinGroup>
+		<PinGroup name="I3C">
+			<PinReference pin="SDA_I3C" />
+			<PinReference pin="SCL_I3C" />
+		</PinGroup>
+		<PinGroup name="RFFE">
+			<PinReference pin="RFFECLK" />
+			<PinReference pin="RFFEDATA" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<SystemConnection pin="VDD" instrument="NI-657x" channel="5" />
+		<SystemConnection pin="VDDIO" instrument="NI-657x" channel="6" />
+		<Connection channel="16" instrument="NI-657x" pin="SCL_I2C" siteNumber="0" />
+		<Connection channel="17" instrument="NI-657x" pin="SDA_I2C" siteNumber="0" />
+		<Connection pin="CS_SPI" siteNumber="0" instrument="NI-657x" channel="7" />
+		<Connection pin="SCLK_SPI" siteNumber="0" instrument="NI-657x" channel="2" />
+		<Connection pin="MOSI_SPI" siteNumber="0" instrument="NI-657x" channel="4" />
+		<Connection pin="MISO_SPI" siteNumber="0" instrument="NI-657x" channel="9" />
+		<Connection pin="RFFECLK" siteNumber="0" instrument="NI-657x" channel="23" />
+		<Connection pin="RFFEDATA" siteNumber="0" instrument="NI-657x" channel="24" />
+		<Connection pin="RFFEVIO" siteNumber="0" instrument="NI-657x" channel="25" />
+		<Connection pin="SCL_I3C" siteNumber="0" instrument="NI-657x" channel="12" />
+		<Connection pin="SDA_I3C" siteNumber="0" instrument="NI-657x" channel="14" />
+	</Connections>
+</PinMap>
