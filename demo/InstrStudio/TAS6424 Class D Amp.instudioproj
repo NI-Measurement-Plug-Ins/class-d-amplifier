@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C69436FCD9994C44F4072DBD944EBEA40FBF7B61BC13E4529F55F3D6681862D4C0AA813E9EA9F6DDB789C1810B4325B6BC78419A86BE31D118257459263B7DB1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B7B41F5CB1AC4352A0BDEA1236B36A6768A4FE0E1766C3B856FBCD1F5480275D57402FC9B45A9FFE5477A58FB8FB5BEC6FB390777407FF489A419DB0043DEF13" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
+		<ParsableNamespace AssemblyFileVersion="9.14.0.49911" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="24.8.0.49911" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.8.0.49911" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<EnvoyManagerRootEnvoy Id="816183ebdb0449587c7c5ee46014204" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
@@ -22,6 +22,7 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="bd330999773540f8a628b4504a9091fa" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Idle Channel Noise Sweep.sfp" StoragePath="Idle Channel Noise Sweep.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="37b24ef829de4396818aa69865f4159b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Power Sweep.sfp" StoragePath="Power Sweep.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="189d8681f3fe49328463e330e4d21531" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Crosstalk Sweep.sfp" StoragePath="Crosstalk Sweep.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="f4ac1eb85ab8458380c20639f53a3a95" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Device Control.sfp" StoragePath="Device Control.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />

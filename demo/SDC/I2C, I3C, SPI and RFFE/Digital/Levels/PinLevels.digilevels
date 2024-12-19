@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PinLevelsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/PinLevels">
+  <PinLevelsSheet>
+    <DigitalPinLevelSets>
+      <DigitalPinLevelSet pin="SCL_I2C">
+        <Vil>I2C.VIL_SCL</Vil>
+        <Vih>I2C.VIH_SCL</Vih>
+        <Vol>I2C.VOL_SCL</Vol>
+        <Voh>I2C.VOH_SCL</Voh>
+        <Iol>I2C.ICOM_SCL</Iol>
+        <Ioh>-I2C.ICOM_SCL</Ioh>
+        <Vcom>I2C.VCOM_SCL</Vcom>
+        <TerminationMode>ActiveLoad</TerminationMode>
+        <Comment>Voltage levels of SCL pin. Active load termination for I2C pull-up.</Comment>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="SDA_I2C">
+        <Vil>I2C.VIL_SDA</Vil>
+        <Vih>I2C.VIH_SDA</Vih>
+        <Vol>I2C.VOL_SDA</Vol>
+        <Voh>I2C.VOH_SDA</Voh>
+        <Iol>I2C.ICOM_SDA</Iol>
+        <Ioh>-I2C.ICOM_SDA</Ioh>
+        <Vcom>I2C.VCOM_SDA</Vcom>
+        <TerminationMode>ActiveLoad</TerminationMode>
+        <Comment>Voltage levels of SDA pin. Active load termination for I2C pull-up.</Comment>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="CS_SPI">
+        <Vil>SPI.VIL_CS</Vil>
+        <Vih>SPI.VIH_CS</Vih>
+        <Vol>SPI.VOL_CS</Vol>
+        <Voh>SPI.VOH_CS</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+        <Comment>Voltage levels of CS pin</Comment>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="SCLK_SPI">
+        <Vil>SPI.VIL_SCLK</Vil>
+        <Vih>SPI.VIH_SCLK</Vih>
+        <Vol>SPI.VOL_SCLK</Vol>
+        <Voh>SPI.VOH_SCLK</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+        <Comment>Voltage levels of SCLK pin</Comment>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="MOSI_SPI">
+        <Vil>SPI.VIL_MOSI</Vil>
+        <Vih>SPI.VIH_MOSI</Vih>
+        <Vol>SPI.VOL_MOSI</Vol>
+        <Voh>SPI.VOH_MOSI</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+        <Comment>Voltage levels of MOSI pin</Comment>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="MISO_SPI">
+        <Vil>SPI.VIL_MISO</Vil>
+        <Vih>SPI.VIH_MISO</Vih>
+        <Vol>SPI.VOL_MISO</Vol>
+        <Voh>SPI.VOH_MISO</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+        <Comment>Voltage levels of MISO pin</Comment>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="VDD">
+        <Vil>DIO.VIL</Vil>
+        <Vih>DIO.VIH</Vih>
+        <Vol>DIO.VOL</Vol>
+        <Voh>DIO.VOH</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="VDDIO">
+        <Vil>DIO.VIL</Vil>
+        <Vih>DIO.VIH</Vih>
+        <Vol>DIO.VOL</Vol>
+        <Voh>DIO.VOH</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="SCL_I3C">
+        <Vil>I3C.VIL_SCL</Vil>
+        <Vih>I3C.VIH_SCL</Vih>
+        <Vol>I3C.VOL_SCL</Vol>
+        <Voh>I3C.VOH_SCL</Voh>
+        <Iol>I3C.ICOM_SCL</Iol>
+        <Ioh>-I3C.ICOM_SCL</Ioh>
+        <Vcom>I3C.VCOM_SCL</Vcom>
+        <TerminationMode>ActiveLoad</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="SDA_I3C">
+        <Vil>I3C.VIL_SDA</Vil>
+        <Vih>I3C.VIH_SDA</Vih>
+        <Vol>I3C.VOL_SDA</Vol>
+        <Voh>I3C.VOH_SDA</Voh>
+        <Iol>I3C.ICOM_SDA</Iol>
+        <Ioh>-I3C.ICOM_SDA</Ioh>
+        <Vcom>I3C.VCOM_SDA</Vcom>
+        <TerminationMode>ActiveLoad</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="RFFECLK">
+        <Vil>RFFE.DC_outputlow</Vil>
+        <Vih>RFFE.DC_outputhigh</Vih>
+        <Vol>RFFE.DC_outputhigh/2</Vol>
+        <Voh>RFFE.DC_outputhigh/2</Voh>
+        <Iol>RFFE.DC_activeload</Iol>
+        <Ioh>-RFFE.DC_activeload</Ioh>
+        <Vcom>0</Vcom>
+        <Vterm>0</Vterm>
+        <TerminationMode>ActiveLoad</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="RFFEDATA">
+        <Vil>RFFE.DC_outputlow</Vil>
+        <Vih>RFFE.DC_outputhigh</Vih>
+        <Vol>RFFE.DC_outputhigh/2</Vol>
+        <Voh>RFFE.DC_outputhigh/2</Voh>
+        <Iol>RFFE.DC_activeload</Iol>
+        <Ioh>-RFFE.DC_activeload</Ioh>
+        <Vcom>0</Vcom>
+        <Vterm>0</Vterm>
+        <TerminationMode>ActiveLoad</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="RFFEVIO">
+        <Vil>RFFE.DC_outputlow</Vil>
+        <Vih>RFFE.DC_outputhigh</Vih>
+        <Vol>RFFE.DC_outputhigh/2</Vol>
+        <Voh>RFFE.DC_outputhigh/2</Voh>
+        <Vterm>0</Vterm>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+    </DigitalPinLevelSets>
+  </PinLevelsSheet>
+</PinLevelsFile>

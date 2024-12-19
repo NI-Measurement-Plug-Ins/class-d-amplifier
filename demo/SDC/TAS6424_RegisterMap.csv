@@ -1,0 +1,63 @@
+Device Name,Group Name,Group Address,Register Name,Register Address,Register Address Length,Register Data Length,Default Data,Private,Field Name,Description,Access,Register Offset,Field Offset,Length,Type,Values,IsIndirect
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,RESET,Resets the device,RW,7,0,1,List,0:Normal operation;1:Reset the device,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,RESERVED_0,Reserved,R,6,0,1,Numeric,,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,PBTL_CH34,PBTL mode for channels 3 and 4,RW,5,0,1,List,0:BTL mode;1:PBTL mode,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,PBTL_CH12,PBTL mode for channels 1 and 2,RW,4,0,1,List,0:BTL mode;1:PBTL mode,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,CH1_LO_MODE,Line output mode for channel 1,RW,3,0,1,List,0:Normal/speaker mode;1:Line output mode,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,CH2_LO_MODE,Line output mode for channel 2,RW,2,0,1,List,0:Normal/speaker mode;1:Line output mode,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,CH3_LO_MODE,Line output mode for channel 3,RW,1,0,1,List,0:Normal/speaker mode;1:Line output mode,FALSE
+TAS6424,Control,0x00,MODE_CONTROL,0x00,8,8,0,FALSE,CH4_LO_MODE,Line output mode for channel 4,RW,0,0,1,List,0:Normal/speaker mode;1:Line output mode,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,0,FALSE,HPF_BYPASS,High pass filter enable,RW,7,0,1,List,0:Enabled;1:Disabled,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,1,FALSE,OTW_CONTROL,Overtemperature warning control,RW,5,0,2,List,0:140 C;1:130 C;2:120 C;3:110 C,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,1,FALSE,OC_CONTROL,Overcurrent control,RW,4,0,1,List,0:Level 1;1:Level 2,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,1,FALSE,VOLUME_RATE,Volume update rate,RW,2,0,2,List,0:1 step / FSYNC;1:1 step / 2 FSYNCs;2:1step / 4 FSYNCs;3:1 step / 8 FSYNCs,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,2,FALSE,GAIN,Gain level,RW,0,0,2,List,0:Level 1 = 7.6-V pk;1:Level 2 = 15-V pk;2:Level 3 = 21-V pk;3:Level 4 = 29-V pk,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,0,FALSE,RESERVED_1,Reserved,R,7,0,1,Numeric,,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,6,FALSE,PWM_FREQ,PWM frequency,RW,4,0,3,List,0:8 x fs;1:10 x fs;2:Reserved;3:Reserved;4:Reserved;5:38 x fs;6:44 x fx;7:48 x fs,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,0,FALSE,RESERVED_2,Reserved,R,3,0,1,Numeric,,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,0,FALSE,SDM_OSR,Oversampling rate,RW,2,0,1,List,0:64x OSR;1:128x OSR,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,2,FALSE,OUTPUT_PHASE,Output phase switching offset,RW,0,0,2,List,0:0 deg offset;1:30 deg offset;2:45 deg offset;3:60 deg offset,FALSE
+TAS6424,Control,0x00,SAP_CONTROL,0x03,8,8,0,FALSE,INPUT_SAMPLING_RATE,Input sampling rate,RW,6,0,2,List,0:44.1 kHz;1:48 kHz;2:96 kHz;3: Reserved,FALSE
+TAS6424,Control,0x00,SAP_CONTROL,0x03,8,8,0,FALSE,8CH_TDM_SLOT_SELECT,8 channel TDM slot selection,RW,5,0,1,List,0:First four TDM slots;1:Last four TDM slots,FALSE
+TAS6424,Control,0x00,SAP_CONTROL,0x03,8,8,0,FALSE,TDM_SLOT_SIZE,TDM slot size,RW,4,0,1,List,0:24-bit or 32-bit;1:16-bit,FALSE
+TAS6424,Control,0x00,SAP_CONTROL,0x03,8,8,0,FALSE,TDM_SLOT_SELECT_2,TDM slot select 2,RW,3,0,1,List,0:Normal;1:Swap channel 1/2 with channel 3/4,FALSE
+TAS6424,Control,0x00,SAP_CONTROL,0x03,8,8,4,FALSE,INPUT_FORMAT,Input format,RW,0,0,3,List,0:24-bit right justified;1:20-bit right justified;2:18-bit right justified;3:16-bit right justified;4:I2S (16-bit or 24-bit);5:Left justified (16-bit or 24-bit);6:TDM mode (16-bit or 24-bit);7:Reserved,FALSE
+TAS6424,Control,0x00,CHAN_STATE_CONTROL,0x04,8,8,1,FALSE,CH1_STATE_CONTROL,Channel 1 state,RW,6,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Control,0x00,CHAN_STATE_CONTROL,0x04,8,8,1,FALSE,CH2_STATE_CONTROL,Channel 2 state,RW,4,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Control,0x00,CHAN_STATE_CONTROL,0x04,8,8,1,FALSE,CH3_STATE_CONTROL,Channel 3 state,RW,2,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Control,0x00,CHAN_STATE_CONTROL,0x04,8,8,1,FALSE,CH4_STATE_CONTROL,Channel 4 state,RW,0,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Control,0x00,CHAN_1_VOLUME,0x05,8,8,207,FALSE,CH1_VOLUME,Channel 1 volume,RW,0,0,8,Numeric,,FALSE
+TAS6424,Control,0x00,CHAN_2_VOLUME,0x06,8,8,207,FALSE,CH2_VOLUME,Channel 2 volume,RW,0,0,8,Numeric,,FALSE
+TAS6424,Control,0x00,CHAN_3_VOLUME,0x07,8,8,207,FALSE,CH3_VOLUME,Channel 3 volume,RW,0,0,8,Numeric,,FALSE
+TAS6424,Control,0x00,CHAN_4_VOLUME,0x08,8,8,207,FALSE,CH4_VOLUME,Channel 4 volume,RW,0,0,8,Numeric,,FALSE
+TAS6424,Faults,0x00,CHAN_STATE_REPORT,0x0F,8,8,1,FALSE,CH1_STATE,Channel 1 state,R,6,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Faults,0x00,CHAN_STATE_REPORT,0x0F,8,8,1,FALSE,CH2_STATE,Channel 2 state,R,4,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Faults,0x00,CHAN_STATE_REPORT,0x0F,8,8,1,FALSE,CH3_STATE,Channel 3 state,R,2,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Faults,0x00,CHAN_STATE_REPORT,0x0F,8,8,1,FALSE,CH4_STATE,Channel 4 state,R,0,0,2,List,0:Play;1:Hi-Z;2:Mute;3:DC load diagnostics,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH1_OC,Channel 1 overcurrent,R,7,0,1,List,0:No fault;1:Overcurrent detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH2_OC,Channel 2 overcurrent,R,6,0,1,List,0:No fault;1:Overcurrent detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH3_OC,Channel 3 overcurrent,R,5,0,1,List,0:No fault;1:Overcurrent detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH4_OC,Channel 4 overcurrent,R,4,0,1,List,0:No fault;1:Overcurrent detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH1_DC,Channel 1 DC fault,R,3,0,1,List,0:No fault;1:DC fault detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH2_DC,Channel 2 DC fault,R,2,0,1,List,0:No fault;1:DC fault detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH3_DC,Channel 3 DC fault,R,1,0,1,List,0:No fault;1:DC fault detected,FALSE
+TAS6424,Faults,0x00,CHAN_FAULTS,0x10,8,8,0,FALSE,CH4_DC,Channel 4 DC fault,R,0,0,1,List,0:No fault;1:DC fault detected,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_1,0x11,8,8,0,FALSE,RESERVED_3,Reserved,R,5,0,3,Numeric,,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_1,0x11,8,8,0,FALSE,INVALID_CLOCK,Invalid clock,R,4,0,1,List,0:No fault;1:Clock fault,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_1,0x11,8,8,0,FALSE,PVDD_OV,PVDD overvoltage,R,3,0,1,List,0:No fault;1:PVDD OV fault,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_1,0x11,8,8,0,FALSE,VBAT_OV,VBAT overvoltage,R,2,0,1,List,0:No fault;1:VBAT OV fault,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_1,0x11,8,8,0,FALSE,PVDD_UV,PVDD undervoltage,R,1,0,1,List,0:No fault;1:PVDD undervoltage fault,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_1,0x11,8,8,0,FALSE,VBAT_UV,VBAT undervoltage,R,0,0,1,List,0:No fault;1:VBAT undervoltage fault,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_2,0x12,8,8,0,FALSE,RESERVED_4,Reserved,R,5,0,3,Numeric,,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_2,0x12,8,8,0,FALSE,OTSD,Global overtemperature shutdown,R,4,0,1,List,0:No shutdown;1:Overtemperature,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_2,0x12,8,8,0,FALSE,CH1_OTSD,Channel 1 overtemperature shutdown,R,3,0,1,List,0:No shutdown;1:Overtemperature,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_2,0x12,8,8,0,FALSE,CH2_OTSD,Channel 2 overtemperature shutdown,R,2,0,1,List,0:No shutdown;1:Overtemperature,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_2,0x12,8,8,0,FALSE,CH3_OTSD,Channel 3 overtemperature shutdown,R,1,0,1,List,0:No shutdown;1:Overtemperature,FALSE
+TAS6424,Faults,0x00,GLOBAL_FAULTS_2,0x12,8,8,0,FALSE,CH4_OTSD,Channel 4 overtemperature shutdown,R,0,0,1,List,0:No shutdown;1:Overtemperature,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,RESERVED_5,Reserved,R,6,0,2,Numeric,,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,VDD_POR,VDD POR,R,5,0,1,List,0:No VDD POR;1:VDD POR occurred,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,OTW,Global overtemperature warning,R,4,0,1,List,0:No warning;1:Warning,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,OTW_CH1,Overtemperature warning for channel 1,R,3,0,1,List,0:No warning;1:Warning,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,OTW_CH2,Overtemperature warning for channel 2,R,2,0,1,List,0:No warning;1:Warning,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,OTW_CH3,Overtemperature warning for channel 3,R,1,0,1,List,0:No warning;1:Warning,FALSE
+TAS6424,Faults,0x00,WARNINGS,0x13,8,8,0,FALSE,OTW_CH4,Overtemperature warning for channel 4,R,0,0,1,List,0:No warning;1:Warning,FALSE

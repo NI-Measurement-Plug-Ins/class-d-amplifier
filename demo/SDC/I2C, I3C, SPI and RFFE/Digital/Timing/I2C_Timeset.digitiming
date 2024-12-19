@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="one_tick">
+        <Period>NIDigital.tOne_tick</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>NIDigital.tOne_tick</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>NIDigital.tOne_tick/2</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Digital Pattern instrument Minimum period</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>NIDigital.tOne_tick</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>NIDigital.tOne_tick/2</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Digital Pattern instrument Minimum period</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_start">
+        <Period>I2C.tHD_STA</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tHD_STA + I2C.tHD_DAT</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_start_HS">
+        <Period>I2C.tHD_STA</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tHD_STA + I2C.tHD_DAT_HS</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c start for HS mode</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_repeated_start">
+        <Period>I2C.tHD_STA+I2C.tSU_STA</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tSU_STA</Data>
+              <Off>I2C.tHD_STA+I2C.tSU_STA+I2C.tHD_DAT</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_clock">
+        <Period>I2C.tPeriod</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I2C">
+            <SurroundByComplement>
+              <On>0</On>
+              <Data>I2C.tLOW</Data>
+              <Return>I2C.tPeriod</Return>
+              <Off>I2C.tPeriod</Off>
+            </SurroundByComplement>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>One clock period</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>I2C.tLOW-I2C.tSU_DAT</On>
+              <Data>I2C.tLOW-I2C.tSU_DAT</Data>
+              <Off>I2C.tPeriod+I2C.tHD_DAT</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I2C.tLOW+(I2C.tHIGH/2)</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>One clock period</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_arb_clock">
+        <Period>I2C.tPeriod_HS</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I2C">
+            <SurroundByComplement>
+              <On>0</On>
+              <Data>I2C.tLOW_HS</Data>
+              <Return>I2C.tPeriod_HS</Return>
+              <Off>I2C.tPeriod_HS</Off>
+            </SurroundByComplement>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Clock period before HS mode</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>I2C.tLOW_HS-I2C.tSU_DAT_HS</On>
+              <Data>I2C.tLOW_HS-I2C.tSU_DAT_HS</Data>
+              <Off>I2C.tPeriod_HS+I2C.tHD_DAT_HS</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>I2C.tLOW_HS+(I2C.tHIGH_HS/2)</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Clock period before HS mode</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_stop">
+        <Period>I2C.tSU_STO</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tSU_STO</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_stop</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tSU_STO</Data>
+              <Off>I2C.tSU_STO</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>i2c_stop</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_low">
+        <Period>I2C.tLOW</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tLOW</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For data low to high transition before I2C stop</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tLOW-I2C.tSU_DAT</Data>
+              <Off>I2C.tLOW</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For data low to high transition before I2C stop</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_tbuf">
+        <Period>I2C.tBUF</Period>
+        <PinEdges>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tBUF</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Buffer time between an I2C stop and next I2C start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="i2c_low_HS">
+        <Period>I2C.tLOW_HS</Period>
+        <PinEdges>
+          <PinEdge pin="SCL_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>I2C.tLOW_HS</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For data low to high transition before I2C stop in HS mode</Comment>
+          </PinEdge>
+          <PinEdge pin="SDA_I2C">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>I2C.tLOW_HS-I2C.tSU_DAT_HS</Data>
+              <Off>I2C.tLOW_HS</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>For data low to high transition before I2C stop in HS mode</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>

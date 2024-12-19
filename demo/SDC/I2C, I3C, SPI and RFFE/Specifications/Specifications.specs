@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Specifications xmlns:f="http://www.ni.com/schemas/Semiconductor/Formula.xsd" schemaVersion="1.0" xmlns="http://www.ni.com/schemas/Semiconductor/Specifications.xsd">
+  <Section name="NIDigital">
+    <f:Formula symbol="tOne_tick">
+      <f:Definition>10 ns</f:Definition>
+      <f:Comment>Digital Pattern instrument Minimum period</f:Comment>
+    </f:Formula>
+  </Section>
+  <Section name="I2C">
+    <f:Formula symbol="Clk_Freq">
+      <f:Definition>100000 Hz</f:Definition>
+      <f:Comment>Clock frequency for I2C transaction</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tPeriod">
+      <f:Definition>1 / I2C.Clk_Freq</f:Definition>
+      <f:Comment>Clock period During Push Pull</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tLOW">
+      <f:Definition>I2C.tPeriod/2</f:Definition>
+      <f:Comment>I2C Low Time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHIGH">
+      <f:Definition>I2C.tPeriod/2</f:Definition>
+      <f:Comment>I2C High time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tSU_STA">
+      <f:Definition>I2C.tPeriod / 4</f:Definition>
+      <f:Comment>I2C Start Setup time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHD_STA">
+      <f:Definition>I2C.tPeriod / 4</f:Definition>
+      <f:Comment>I2C Start hold time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHD_DAT">
+      <f:Definition>I2C.tPeriod / 4</f:Definition>
+      <f:Comment>I2C Data hold time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tSU_DAT">
+      <f:Definition>I2C.tPeriod / 4</f:Definition>
+      <f:Comment>I2C Data Setup time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tSU_STO">
+      <f:Definition>5 µs</f:Definition>
+      <f:Comment>I2C Stop setup time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tBUF">
+      <f:Definition>5 µs</f:Definition>
+      <f:Comment>I2C Buffer time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="Clk_Freq_HS">
+      <f:Definition>1 MHz</f:Definition>
+      <f:Comment>Clock frequency for High Speed master code</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tPeriod_HS">
+      <f:Definition>1 / I2C.Clk_Freq_HS</f:Definition>
+      <f:Comment>I2C Clock period for High Speed master code</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tLOW_HS">
+      <f:Definition>I2C.tPeriod_HS / 2</f:Definition>
+      <f:Comment>I2C Low Time for High Speed master code</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHIGH_HS">
+      <f:Definition>I2C.tPeriod_HS / 2</f:Definition>
+      <f:Comment>I2C High time for High Speed master code</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tSU_DAT_HS">
+      <f:Definition>I2C.tPeriod_HS / 4</f:Definition>
+      <f:Comment>I2C Data Setup time for High Speed master code</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHD_DAT_HS">
+      <f:Definition>I2C.tPeriod_HS / 4</f:Definition>
+      <f:Comment>I2C Data hold time for High Speed master code</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_SCL">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in SCL line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIH_SCL">
+      <f:Definition>3.3 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in SCL line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIH_SDA">
+      <f:Definition>3.3 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in SDA line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_SDA">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in SDA line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL_SCL">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in SCL line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH_SCL">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in SCL line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL_SDA">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in SDA line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH_SDA">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in SDA line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VCOM_SCL">
+      <f:Definition>3.3 V</f:Definition>
+      <f:Comment>SCL Active Load Voltage</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="ICOM_SCL">
+      <f:Definition>0.0015 A</f:Definition>
+      <f:Comment>SCL Active Load Current</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VCOM_SDA">
+      <f:Definition>3.3 V</f:Definition>
+      <f:Comment>SDA Active Load Voltage</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="ICOM_SDA">
+      <f:Definition>0.0015 A</f:Definition>
+      <f:Comment>SDA Active Load Current</f:Comment>
+    </f:Formula>
+  </Section>
+  <Section name="SPI">
+    <f:Formula symbol="Clk_Freq">
+      <f:Definition>1000000 Hz</f:Definition>
+      <f:Comment>SPI Clock Frequency</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="Clk_Period">
+      <f:Definition>1 / SPI.Clk_Freq</f:Definition>
+      <f:Comment>SPI Clock Period</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="Clk_High">
+      <f:Definition>SPI.Clk_Period / 2</f:Definition>
+      <f:Comment>SPI Clock High Time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="Clk_Low">
+      <f:Definition>SPI.Clk_Period / 2</f:Definition>
+      <f:Comment>SPI Clock Low Time</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="CS_Lead">
+      <f:Definition>SPI.Clk_Period</f:Definition>
+      <f:Comment>CS Lead time before first clock edge</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="CS_Trail">
+      <f:Definition>SPI.Clk_Period</f:Definition>
+      <f:Comment>CS Trail time before CS goes high</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="CS_IdleStart">
+      <f:Definition>SPI.Clk_Period</f:Definition>
+      <f:Comment>CS Idle time before start</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="CS_IdleEnd">
+      <f:Definition>SPI.Clk_Period</f:Definition>
+      <f:Comment>CS Idle time after CS goes high</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="MOSI_Setup">
+      <f:Definition>SPI.Clk_Period / 4</f:Definition>
+      <f:Comment>Data Setup Time in MOSI line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="MOSI_Hold">
+      <f:Definition>SPI.Clk_Period / 4</f:Definition>
+      <f:Comment>Data Hold Time in MOSI line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tReadShift">
+      <f:Definition>0</f:Definition>
+      <f:Comment>Compare strobe shift from the sampling edge</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_CS">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in CS line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_SCLK">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in SCLK line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_MOSI">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in MOSI line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_MISO">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in MISO line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIH_CS">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in CS line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIH_SCLK">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in SCLK line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIH_MOSI">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in MOSI line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIH_MISO">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in MISO line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL_CS">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in CS line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL_SCLK">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in SCLK line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL_MOSI">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in MOSI line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL_MISO">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in MISO line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH_CS">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in CS line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH_SCLK">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in SCLK line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH_MOSI">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in MOSI line</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH_MISO">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in MISO line</f:Comment>
+    </f:Formula>
+  </Section>
+  <Section name="I3C">
+    <f:Formula symbol="tLOW_OD">
+      <f:Definition>500 ns</f:Definition>
+      <f:Comment>Low Time During Open Drain</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHIGH_OD">
+      <f:Definition>500 ns</f:Definition>
+      <f:Comment>High Time During Open Drain</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tPeriod_OD">
+      <f:Definition>I3C.tLOW_OD+I3C.tHIGH_OD</f:Definition>
+      <f:Comment>Clock period During Open Drain</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tSU_OD">
+      <f:Definition>250 ns</f:Definition>
+      <f:Comment>Data Setup time During Open Drain</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tCAS">
+      <f:Definition>500 ns</f:Definition>
+      <f:Comment>Clock After Start</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="Clk_Freq">
+      <f:Definition>100000 Hz</f:Definition>
+      <f:Comment>Clock frequency for I2C transaction</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tPeriod_PP">
+      <f:Definition>1 / I3C.Clk_Freq</f:Definition>
+      <f:Comment>Clock period During Push Pull</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tCBP">
+      <f:Definition>500 ns</f:Definition>
+      <f:Comment>Clock Before Stop</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tLOW_PP">
+      <f:Definition>I3C.tPeriod_PP/2</f:Definition>
+      <f:Comment>Low Time During Push Pull</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHIGH_PP">
+      <f:Definition>I3C.tPeriod_PP/2</f:Definition>
+      <f:Comment>High Time During Push Pull</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tSU_PP">
+      <f:Definition>I3C.tPeriod_PP/4</f:Definition>
+      <f:Comment>Data Setup time During Push Pull</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tCASr">
+      <f:Definition>I3C.tPeriod_PP/4</f:Definition>
+      <f:Comment>Clock After Repeated Start</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tCBSr">
+      <f:Definition>I3C.tPeriod_PP/4</f:Definition>
+      <f:Comment>Clock Before Repeated Start</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="tHD_PP">
+      <f:Definition>I3C.tPeriod_PP/4</f:Definition>
+      <f:Comment>Signal Hold in Push Pull</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL_SCL">
+      <f:Definition>0 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VIH_SCL">
+      <f:Definition>1.8 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VIH_SDA">
+      <f:Definition>1.8 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VIL_SDA">
+      <f:Definition>0 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VOL_SCL">
+      <f:Definition>0.9 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VOH_SCL">
+      <f:Definition>0.9 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VOL_SDA">
+      <f:Definition>0.9 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VOH_SDA">
+      <f:Definition>0.9 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="VCOM_SCL">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Active Load Voltage</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="ICOM_SCL">
+      <f:Definition>0.007 A</f:Definition>
+      <f:Comment>Active Load Current</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VCOM_SDA">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Active Load Voltage</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="ICOM_SDA">
+      <f:Definition>0.007 A</f:Definition>
+      <f:Comment>Active Load Current</f:Comment>
+    </f:Formula>
+  </Section>
+  <Section name="DIO">
+    <f:Formula symbol="VIH">
+      <f:Definition>1.8 V</f:Definition>
+      <f:Comment>Min voltage read as 1 by DUT in DIO pin</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOH">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Min voltage sent as 1 by DUT in DIO pin</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VIL">
+      <f:Definition>0 V</f:Definition>
+      <f:Comment>Max voltage read as 0 by DUT in DIO pin</f:Comment>
+    </f:Formula>
+    <f:Formula symbol="VOL">
+      <f:Definition>0.9 V</f:Definition>
+      <f:Comment>Max voltage sent as 0 by DUT in DIO pin</f:Comment>
+    </f:Formula>
+  </Section>
+  <Section name="RFFE">
+    <f:Formula symbol="Clk_Freq">
+      <f:Definition>100000 Hz</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="Clk_Period">
+      <f:Definition>1/RFFE.Clk_Freq</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="DC_outputhigh">
+      <f:Definition>1.8</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="DC_outputlow">
+      <f:Definition>0</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="DC_activeload">
+      <f:Definition>1.5 mA</f:Definition>
+    </f:Formula>
+  </Section>
+</Specifications>

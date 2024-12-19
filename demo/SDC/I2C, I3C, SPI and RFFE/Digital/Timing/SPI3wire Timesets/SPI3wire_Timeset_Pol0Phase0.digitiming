@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="Clk_Bit">
+        <Period>SPI.Clk_Period</Period>
+        <PinEdges>
+          <PinEdge pin="CS_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.Clk_Period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for clock</Comment>
+          </PinEdge>
+          <PinEdge pin="SCLK_SPI">
+            <ReturnToLow>
+              <On>0</On>
+              <Data>SPI.Clk_Low</Data>
+              <Return>SPI.Clk_Period</Return>
+              <Off>SPI.Clk_Period</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for clock</Comment>
+          </PinEdge>
+          <PinEdge pin="MOSI_SPI">
+            <ReturnToLow>
+              <On>0</On>
+              <Data>SPI.Clk_Low-SPI.MOSI_Setup</Data>
+              <Return>SPI.Clk_Low+SPI.MOSI_Hold</Return>
+              <Off>SPI.Clk_Low+SPI.MOSI_Hold</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>SPI.Clk_Low+SPI.tReadShift</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for clock</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="CS_Idle_Start">
+        <Period>SPI.CS_IdleStart</Period>
+        <PinEdges>
+          <PinEdge pin="CS_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_IdleStart</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS idle start</Comment>
+          </PinEdge>
+          <PinEdge pin="SCLK_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_IdleStart</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS idle start</Comment>
+          </PinEdge>
+          <PinEdge pin="MOSI_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_IdleStart</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS idle start</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="CS_Idle_End">
+        <Period>SPI.CS_IdleEnd</Period>
+        <PinEdges>
+          <PinEdge pin="CS_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_IdleEnd</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS idle end</Comment>
+          </PinEdge>
+          <PinEdge pin="SCLK_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_IdleEnd</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS idle end</Comment>
+          </PinEdge>
+          <PinEdge pin="MOSI_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_IdleEnd</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS idle end</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="CS_Lead">
+        <Period>SPI.CS_Lead</Period>
+        <PinEdges>
+          <PinEdge pin="CS_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_Lead-SPI.Clk_Low</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS lead</Comment>
+          </PinEdge>
+          <PinEdge pin="SCLK_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_Lead-SPI.Clk_Low</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS lead</Comment>
+          </PinEdge>
+          <PinEdge pin="MOSI_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_Lead-SPI.Clk_Low</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS lead</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="CS_Trail">
+        <Period>SPI.CS_Trail</Period>
+        <PinEdges>
+          <PinEdge pin="CS_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_Trail</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS trail</Comment>
+          </PinEdge>
+          <PinEdge pin="SCLK_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_Trail</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS trail</Comment>
+          </PinEdge>
+          <PinEdge pin="MOSI_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>SPI.CS_Trail</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Timeset for CS trail</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="one_tick">
+        <Period>NIDigital.tOne_tick</Period>
+        <PinEdges>
+          <PinEdge pin="CS_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>NIDigital.tOne_tick</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>NIDigital.tOne_tick/2</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Digital Pattern instrument Minimum period</Comment>
+          </PinEdge>
+          <PinEdge pin="SCLK_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>NIDigital.tOne_tick</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>NIDigital.tOne_tick/2</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Digital Pattern instrument Minimum period</Comment>
+          </PinEdge>
+          <PinEdge pin="MOSI_SPI">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>NIDigital.tOne_tick</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>NIDigital.tOne_tick/2</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Digital Pattern instrument Minimum period</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>
