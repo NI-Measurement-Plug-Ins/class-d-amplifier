@@ -1,0 +1,4 @@
+writefield TAS6424-Control-CH1_STATE_CONTROL 0
+writefield TAS6424-Control-CH2_STATE_CONTROL 0
+writefield TAS6424-Control-CH3_STATE_CONTROL 0
+writefield TAS6424-Control-CH4_STATE_CONTROL 0

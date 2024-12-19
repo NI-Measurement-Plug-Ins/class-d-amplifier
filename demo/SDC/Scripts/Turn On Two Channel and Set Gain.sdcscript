@@ -1,0 +1,7 @@
+// Reset device
+writefield TAS6424-Control-RESET 1
+// Turn on channels 1 and 2
+writefield TAS6424-Control-CH1_STATE_CONTROL 0
+writefield TAS6424-Control-CH2_STATE_CONTROL 0
+// Set gain to 7.6V
+writefield TAS6424-Control-GAIN 0
