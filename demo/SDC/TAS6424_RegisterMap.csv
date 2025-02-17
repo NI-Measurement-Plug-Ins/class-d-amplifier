@@ -11,7 +11,7 @@ TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,0,FALSE,HPF_BYPASS,High pass filter
 TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,1,FALSE,OTW_CONTROL,Overtemperature warning control,RW,5,0,2,List,0:140 C;1:130 C;2:120 C;3:110 C,FALSE
 TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,1,FALSE,OC_CONTROL,Overcurrent control,RW,4,0,1,List,0:Level 1;1:Level 2,FALSE
 TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,1,FALSE,VOLUME_RATE,Volume update rate,RW,2,0,2,List,0:1 step / FSYNC;1:1 step / 2 FSYNCs;2:1step / 4 FSYNCs;3:1 step / 8 FSYNCs,FALSE
-TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,2,FALSE,GAIN,Gain level,RW,0,0,2,List,0:Level 1 = 7.6-V pk;1:Level 2 = 15-V pk;2:Level 3 = 21-V pk;3:Level 4 = 29-V pk,FALSE
+TAS6424,Control,0x00,MISC_CONTROL_1,0x01,8,8,2,FALSE,GAIN,Gain level,RW,0,0,2,List,0:Level 1 = 7.5-V pk;1:Level 2 = 15-V pk;2:Level 3 = 21-V pk;3:Level 4 = 29-V pk,FALSE
 TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,0,FALSE,RESERVED_1,Reserved,R,7,0,1,Numeric,,FALSE
 TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,6,FALSE,PWM_FREQ,PWM frequency,RW,4,0,3,List,0:8 x fs;1:10 x fs;2:Reserved;3:Reserved;4:Reserved;5:38 x fs;6:44 x fx;7:48 x fs,FALSE
 TAS6424,Control,0x00,MISC_CONTROL_2,0x02,8,8,0,FALSE,RESERVED_2,Reserved,R,3,0,1,Numeric,,FALSE

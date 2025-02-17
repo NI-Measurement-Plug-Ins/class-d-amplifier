@@ -8,7 +8,7 @@
   </Section>
   <Section name="I2C">
     <f:Formula symbol="Clk_Freq">
-      <f:Definition>100000 Hz</f:Definition>
+      <f:Definition>400000 Hz</f:Definition>
       <f:Comment>Clock frequency for I2C transaction</f:Comment>
     </f:Formula>
     <f:Formula symbol="tPeriod">
