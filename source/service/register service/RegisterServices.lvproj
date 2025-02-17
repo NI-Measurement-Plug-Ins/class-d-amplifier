@@ -55,7 +55,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/dev/class-d-amplifier/builds/services/Utility</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ACBEF9C0-9D35-498A-A60B-902281E35CB5}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DeleteServices_Audio.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/dev/class-d-amplifier/builds/services/Utility/DeleteServices_Audio.exe</Property>
@@ -115,7 +115,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/dev/class-d-amplifier/builds/services/Utility</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1845AD56-383C-4DAD-BAE0-35C3AB329506}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">RegisterServices_Audio.exe</Property>
