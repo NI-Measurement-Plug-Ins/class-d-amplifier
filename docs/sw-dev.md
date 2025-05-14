@@ -4,14 +4,14 @@ If you want to commit changes to the repo, we recommend you use the current vers
 
 Software dependencies:
 
-- LabVIEW 2022 Q3 64-bit
+- LabVIEW 2023 Q3 64-bit
 - InstrumentStudio 2024 Q4
 - Sound and Vibration Toolkit 2023 Q3
-- Digital Audio Acquisition and Generation Toolkit 2023 Q3 
+- Digital Audio Acquisition and Generation Toolkit 2025 Q2 
 - NI DAQmx (latest)
 - NI DCPower (latest)
 - NI RIO (latest)
-- [Measurement Plug-In SDK for LabVIEW v3.1.0.6](https://github.com/ni/measurement-plugin-labview/releases)
+- [Measurement Plug-In SDK for LabVIEW v3.3.1.2](https://github.com/ni/measurement-plugin-labview/releases)
 - [NI Simple Message (STM) Library](https://www.vipm.io/package/ni_lib_stm/) (*from VI Package Manager*)
 - [NI PointValueMap](https://www.vipm.io/package/national_instruments_lib_ni_pointvaluemap/) (*from VI Package Manager*)
 - [NI Qbus](https://www.vipm.io/package/national_instruments_lib_ni_qbus/) (*from VI Package Manager*)
