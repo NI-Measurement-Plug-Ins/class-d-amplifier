@@ -2742,8 +2742,8 @@
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i402">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>community-classdamplifier_1.1.0.3_windows_x64.nipkg</FileName>
-                <Version>1.1.0.3</Version>
+                <FileName>community-classdamplifier_1.1.0.4_windows_x64.nipkg</FileName>
+                <Version>1.1.0.4</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes>
@@ -2770,7 +2770,7 @@
             </CustomExecutes>
             <Description>Measurements for Class D amplifiers using MeasurementLink</Description>
             <DisplayName>Class D Amplifier MeasurementLink Plug-In</DisplayName>
-            <FileName>community-classdamplifier_1.1.0.4_windows_x64.nipkg</FileName>
+            <FileName>community-classdamplifier_1.1.0.5_windows_x64.nipkg</FileName>
             <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/class-d-amplifier</Homepage>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>GitHub Community</MaintainerName>
@@ -2782,7 +2782,7 @@
                     <DisplayName>LabVIEW Runtime (64-bit)</DisplayName>
                     <PackageName>ni-labview-2023-runtime-engine</PackageName>
                     <Relation>Depends</Relation>
-                    <Version>23.3.4.49152-0+f0</Version>
+                    <Version>23.3.6.49165-0+f13</Version>
                     <VersionType>AutoUpdate</VersionType>
                 </PackageRelationship>
             </PackageRelationships>
@@ -2790,7 +2790,7 @@
             <Section>Add-Ons</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>community-classdamplifier</Synopsis>
-            <Version>1.1.0.4</Version>
+            <Version>1.1.0.5</Version>
         </Distribution>
     </Distributions>
     <Feeds />
